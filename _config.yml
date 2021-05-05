@@ -45,6 +45,7 @@ sass:
 
 feed:
   categories:
+    - news
     - social
 
 defaults:
@@ -64,10 +65,21 @@ defaults:
       author: "NEMO Team"
       layout: post
       hide_hero: true
+      show_sidebar: false
+  -
+    scope:
+      path: "_posts"
+      type: "posts"
+    values:
+      author: "NEMO Team"
+      layout: post
+      hide_hero: false
+      hero_image: /img/nemo.jpg
       show_sidebar: true
   -
     scope:
       path: "nemo"
+      type: "pages"
     values:
       layout: page
       hide_hero: true
@@ -76,6 +88,7 @@ defaults:
   -
     scope:
       path: "bwhpc"
+      type: "pages"
     values:
       layout: page
       hide_hero: true
@@ -84,17 +97,9 @@ defaults:
   -
     scope:
       path: "bwunicluster"
+      type: "pages"
     values:
       layout: page
       hide_hero: true
       show_sidebar: false
       menubar: bwuni-menu
-#  -
-#    scope:
-#      path: "documentation"
-#    values:
-#      layout: page
-#      hide_hero: true
-#      show_sidebar: false
-#      toc: true
-#      menubar: doc-menu
