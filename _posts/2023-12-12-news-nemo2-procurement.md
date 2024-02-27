@@ -4,7 +4,7 @@ author: NEMO Team
 category: news
 tags: [NEMO2, Procurement, CPU Partition, Storage, Milan, Weka]
 date: 2023-12-12
-motd: true
+motd: false
 summary: >
     The initial partition of NEMO2, consisting of around 140 Milan nodes and 1000 terabytes (one petabyte) of high-speed storage space, has been ordered.
     A tender for a GPU partition and a second CPU partition will be opened in early 2024.

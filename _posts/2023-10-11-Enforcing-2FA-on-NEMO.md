@@ -4,7 +4,7 @@ author: NEMO Team
 category: news
 tags: [NEMO, 2FA]
 date: 2023-10-11
-motd: true
+motd: false
 summary: >
     We will enforce two-factor authentication for NEMO logins in November.
     Currently, this security feature can be tested on our vis1/2 visualization nodes.
