@@ -118,13 +118,13 @@
 # ---
 
 ---
-status: warning
+status: success
 author: HPC Team Freiburg
 date: 2024-03-13
-title: Job Submission to NEMO disrupted
+title: Job submission to NEMO works again
 text: >
-  The NEMO scheduler is not working properly.
-  We are investigating the problem.
+  We have found the problem with the NEMO scheduler.
+  It was overloaded with a large amount of information, which led to timeouts.
 ---
 
 # ---
