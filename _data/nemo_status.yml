@@ -117,15 +117,15 @@
 #   Login to the NEMO cluster is currently disrupted outside the university.
 # ---
 
----
-status: success
-author: HPC Team Freiburg
-date: 2024-03-13
-title: Job submission to NEMO works again
-text: >
-  We have found the problem with the NEMO scheduler.
-  It was overloaded with a large amount of information, which led to timeouts.
----
+# ---
+# status: success
+# author: HPC Team Freiburg
+# date: 2024-03-13
+# title: Job submission to NEMO works again
+# text: >
+#   We have found the problem with the NEMO scheduler.
+#   It was overloaded with a large amount of information, which led to timeouts.
+# ---
 
 # ---
 # status: warning
@@ -167,25 +167,25 @@ text: >
 #   During maintenance, the operating system of the cluster is updated.
 # ---
 
-# ---
-# status: danger
-# author: HPC Team Freiburg
-# date: 2022-02-22
-# title: Scheduled Power Maintenance 03.03.2022
-# text: >
-#   Inspection of the data center power supply.
-#   <br />
-#   <br />
-#   <strong>Date: 03.03.2022 6:00 - 18:00 CET</strong>
-#   <br />
-#   <br />
-#   The complete NEMO cluster will be shut down.
-#   No computing is possible during the maintenance, so submit all jobs in time.
-#   Note that only jobs whose walltime fits into the time window until maintenance can start.
-#   Jobs that cannot start will only be processed afterwards.
-#   However, in the event of problems, the queue may have to be emptied.
-#   During maintenance the operating system of the cluster is updated.
-# ---
+---
+status: warning
+author: HPC Team Freiburg
+date: 2024-03-19
+title: Scheduled Power Maintenance 09.04.2024
+text: >
+  Inspection of the data center's power supply.
+  <br />
+  <br />
+  <strong>Date: 09.04.2024 6:00 - 18:00 CEST</strong>
+  <br />
+  <br />
+  The entire NEMO cluster is shut down.
+  No calculations are possible during maintenance, so submit all jobs in good time.
+  Please note that only jobs whose walltime fits into the time window until maintenance can be started.
+  Jobs that cannot start will only be processed afterwards.
+  However, in the event of problems, the queue may have to be emptied.
+  During maintenance, the operating system of the cluster is updated.
+---
 
 # ---
 # status: warning
