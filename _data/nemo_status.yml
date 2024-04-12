@@ -58,18 +58,18 @@
 #   For more info see Red Hat Security Bulletin: https://access.redhat.com/security/vulnerabilities/RHSB-2021-006.
 # ---
 
----
-status: success
-author: HPC Team Freiburg
-date: 2024-04-09
-title: 'NEMO: normal operation'
-text: >
-  The maintenance of the uninterruptible power supply was successfully completed.
-  <br />
-  In addition, the March security update was applied (CentOS 7.9, Rev. 41).
-  <br />
-  See update log for timestamps <code>/opt/bwhpc/os-revisions/security_update_2024-04</code>.
----
+# ---
+# status: success
+# author: HPC Team Freiburg
+# date: 2024-04-09
+# title: 'NEMO: normal operation'
+# text: >
+#   The maintenance of the uninterruptible power supply was successfully completed.
+#   <br />
+#   In addition, the March security update was applied (CentOS 7.9, Rev. 41).
+#   <br />
+#   See update log for timestamps <code>/opt/bwhpc/os-revisions/security_update_2024-04</code>.
+# ---
 
 # ---
 # status: success
@@ -117,15 +117,17 @@ text: >
 #   Login to the NEMO cluster is currently disrupted outside the university.
 # ---
 
-# ---
-# status: success
-# author: HPC Team Freiburg
-# date: 2024-03-13
-# title: Job submission to NEMO works again
-# text: >
-#   We have found the problem with the NEMO scheduler.
-#   It was overloaded with a large amount of information, which led to timeouts.
-# ---
+---
+status: warning
+author: HPC Team Freiburg
+date: 2024-04-12
+title: 'NEMO: normal operation with limitations'
+text: >
+  After maintenance, we noticed problems with Omni-Path communication on the GPU node.
+  We were unable to resolve them.
+  We have decided to run the machine with 10Gbit/s Ethernet only for the time being.
+  This only affects jobs computed on the GPU machine with the 8x V100 Nvidia cards.
+---
 
 # ---
 # status: warning
