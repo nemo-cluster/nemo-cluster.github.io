@@ -4,7 +4,7 @@ author: NEMO Team
 category: news
 date: 2024-02-27
 tags: [2FA, FIDO2, TOTP, Security_Key, Token]
-motd: true
+motd: false
 summary: >
     The use of a second factor to secure logins to services is becoming increasingly mandatory. bwHPC currently uses time-based one-time passwords (TOTP) or Yubico OTP as a second factor for SSH logins.
     We have looked at some hardware security tokens for bwIDM/bwHPC that can be used instead of a mobile phone.
