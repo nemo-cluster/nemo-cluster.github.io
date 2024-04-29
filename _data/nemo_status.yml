@@ -120,13 +120,12 @@
 ---
 status: warning
 author: HPC Team Freiburg
-date: 2024-04-12
+date: 2024-04-29
 title: 'NEMO: normal operation with limitations'
 text: >
-  After maintenance, we noticed problems with Omni-Path communication on the GPU node.
-  We were unable to resolve them.
-  We have decided to run the machine with 10Gbit/s Ethernet only for the time being.
-  This only affects jobs computed on the GPU machine with the 8x V100 Nvidia cards.
+  We have recently had some problems with our scheduler.
+  Unfortunately, we haven't found the problem yet.
+  It manifests itself in connection problems to the scheduler.
 ---
 
 # ---
