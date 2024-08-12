@@ -37,15 +37,13 @@
 #   for reboot timestamps (created when update starts).
 # ---
 
-# ---
-# status: success
-# author: HPC Team Freiburg
-# title: 'NEMO: normal operation'
-# text: >
-#   Reboot of login1 on 18.05. at 18:00 CEST -> successful.
-#   <br />
-#   CVMFS mount on login1 works again.
-# ---
+---
+status: success
+author: HPC Team Freiburg
+title: "NEMO: normal operation"
+text: >
+  Running on a small remaining partition.
+---
 
 # ---
 # status: success
@@ -117,16 +115,16 @@
 #   Login to the NEMO cluster is currently disrupted outside the university.
 # ---
 
----
-status: warning
-author: HPC Team Freiburg
-date: 2024-04-29
-title: 'NEMO: normal operation with limitations'
-text: >
-  We have recently had some problems with our scheduler.
-  Unfortunately, we haven't found the problem yet.
-  It manifests itself in connection problems to the scheduler.
----
+# ---
+# status: warning
+# author: HPC Team Freiburg
+# date: 2024-04-29
+# title: 'NEMO: normal operation with limitations'
+# text: >
+#   We have recently had some problems with our scheduler.
+#   Unfortunately, we haven't found the problem yet.
+#   It manifests itself in connection problems to the scheduler.
+# ---
 
 # ---
 # status: warning
