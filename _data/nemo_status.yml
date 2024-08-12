@@ -37,13 +37,13 @@
 #   for reboot timestamps (created when update starts).
 # ---
 
----
-status: success
-author: HPC Team Freiburg
-title: "NEMO: normal operation"
-text: >
-  Running on a small remaining partition.
----
+# ---
+# status: success
+# author: HPC Team Freiburg
+# title: "NEMO: normal operation"
+# text: >
+#   Running on a small remaining partition.
+# ---
 
 # ---
 # status: success
@@ -215,6 +215,20 @@ text: >
 #   <br />
 #   The cluster is working normally again.
 # ---
+
+---
+status: danger
+author: HPC Team Freiburg
+date: 2024-08-12
+title: login2 deactivation
+text: >
+  login2 will be deactivated on 2024-08-14 at 10:00 CEST.
+  We need it for testing the new cluster NEMO2 (Demo cluster NEMO1.5).
+  <br />
+  Please use login1 for all your work.
+  <br />
+  If you have any questions, please contact the support team.
+---
 
 # ---
 # status: danger
