@@ -225,7 +225,7 @@ text: >
   login2 will be deactivated on 2024-08-14 at 10:00 CEST.
   We need it for testing the new cluster NEMO2 (Demo cluster NEMO1.5).
   <br />
-  Please use login1 for all your work.
+  Please use login1 or vis1 for all your work.
   <br />
   If you have any questions, please contact the support team.
 ---
