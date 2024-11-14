@@ -1,16 +1,16 @@
----
-url: event/2024/04/24/10th-bwhpc-symposium/
-author: HPC Team
-date: 2024-04-24
-motd: true
-title: Registration and call for participation are now open.
-text: >
-  Registration and call for participation for the 10th bwHPC Symposium are open:
-  <br />
-  <a href="https://www.bwhpc.de/10-bwhpc-symposium.php" target="_blank">https://www.bwhpc.de/10-bwhpc-symposium.php</a>
-  <br />
-  We are looking forward to your participation.
----
+# ---
+# url: event/2024/04/24/10th-bwhpc-symposium/
+# author: HPC Team
+# date: 2024-04-24
+# motd: true
+# title: Registration and call for participation are now open.
+# text: >
+#   Registration and call for participation for the 10th bwHPC Symposium are open:
+#   <br />
+#   <a href="https://www.bwhpc.de/10-bwhpc-symposium.php" target="_blank">https://www.bwhpc.de/10-bwhpc-symposium.php</a>
+#   <br />
+#   We are looking forward to your participation.
+# ---
 
 # ---
 # url: /
@@ -99,20 +99,6 @@ text: >
 #   Just run <code>nemoquota</code> on any NEMO node.
 #   <br />
 #   Update 04.04.2022 17:15 CEST: To make the NEMO tools easier to find, we renamed all previous scripts that started with <code>showmy...</code> to <code>nemo...</code>.
-# ---
-
-# ---
-# url: /
-# status: grey
-# author: HPC Team Freiburg
-# date: 2023-02-02
-# motd: true
-# title: In Memoriam Rainer
-# text: >
-#   It is with great sadness that we have to inform you that our colleague Rainer Rutka from the University of Konstanz passed away last Friday at the age of 61.
-#   Rainer was an active member and passionate supporter of the bwHPC projects and the bwForCluster NEMO.
-#   We will remember him for his helpfulness and his constant efforts to pave the way to HPC for all scientists.
-#   Our thoughts are with Rainer's family and friends.
 # ---
 
 ### status is one of, or undefined: dark, grey, primary, info, link, success, warning, danger
