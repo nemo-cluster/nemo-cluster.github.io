@@ -4,8 +4,8 @@ author: bwHPC Symposium Team
 category: event
 tags: [bwHPC, Symposium]
 date: 2024-04-24
-highlight: true
-motd: true
+highlight: false
+motd: false
 summary: >
     The 10th bwHPC Symposium will take place on September 25th and 26th,
     2024 and will be hosted by the University of Freiburg.
