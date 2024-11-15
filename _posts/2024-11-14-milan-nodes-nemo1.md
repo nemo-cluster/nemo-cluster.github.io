@@ -18,7 +18,7 @@ The AMD Genoa partition for NEMO2 will arrive on December 4.
 To make room for the new nodes, all old NEMO1 nodes will be decommissioned.
 
 To ease the transition from NEMO1 to NEMO2, one rack with the new NEMO2 nodes has been temporarily reconfigured to run the NEMO1 environment.
-As an added benefit, this will give NEMO1 more processing power to NEMO1 for the time being.
+As an added benefit, this will give more processing power to NEMO1 for the time being.
 If we see demand, we can add a total of 17000 cores to NEMO1.
 
 We will keep these AMD Milan nodes in the NEMO1 environment during the migration to NEMO2.
