@@ -205,13 +205,18 @@
 # ---
 
 ---
-status: danger
+status: success
 author: HPC Team Freiburg
-date: 2024-11-24
-title: NEMO Storage Problems
+date: 2024-11-25
+title: "FIXED: NEMO Storage Problems and Power Outage"
 text: >
-  The BeeGFS storage system is currently experiencing problems.
-  We are working on a solution.
+  The BeeGFS storage system had a problem on 24.11.2024 which persisted throughout the day.
+  Restarting the services did not solve the problem.
+  Today the problem could be fixed and has not occurred again so far.
+  <br />
+  Unfortunately, there was also a brief power outage in the data center today at 7:21 CET.
+  As a result, all computing nodes were without power and all jobs were killed.
+  All nodes are rebooted and operational again.
 ---
 
 # ---
