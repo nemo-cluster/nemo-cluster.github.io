@@ -204,20 +204,20 @@
 #   so in the next few weeks we will try to check the remaining switches in the cluster and replace them in advance.
 # ---
 
----
-status: success
-author: HPC Team Freiburg
-date: 2024-11-25
-title: "FIXED: NEMO Storage Problems and Power Outage"
-text: >
-  The BeeGFS storage system had a problem on 24.11.2024 which persisted throughout the day.
-  Restarting the services did not solve the problem.
-  Today the problem could be fixed and has not occurred again so far.
-  <br />
-  Unfortunately, there was also a brief power outage in the data center today at 7:21 CET.
-  As a result, all computing nodes were without power and all jobs were killed.
-  All nodes are rebooted and operational again.
----
+# ---
+# status: success
+# author: HPC Team Freiburg
+# date: 2024-11-25
+# title: "FIXED: NEMO Storage Problems and Power Outage"
+# text: >
+#   The BeeGFS storage system had a problem on 24.11.2024 which persisted throughout the day.
+#   Restarting the services did not solve the problem.
+#   Today the problem could be fixed and has not occurred again so far.
+#   <br />
+#   Unfortunately, there was also a brief power outage in the data center today at 7:21 CET.
+#   As a result, all computing nodes were without power and all jobs were killed.
+#   All nodes are rebooted and operational again.
+# ---
 
 # ---
 # status: warning
@@ -245,18 +245,18 @@ text: >
 #   If you have any questions, please contact the support team.
 # ---
 
-# ---
-# status: danger
-# author: HPC Team Freiburg
-# date: 2024-11-15
-# title: NEMO End of Life and new Milan Nodes in NEMO1
-# text: >
-#   The Genoa partition for NEMO2 will be delivered on December 4th, at the same time all old NEMO1 nodes will be removed (see news).
-#   <br />
-#   To ease the transition, some new Milan nodes will be booted into NEMO1 and will remain available at least until January 31st.
-#   <br />
-#   If you have any questions, please contact the support team.
-# ---
+---
+status: danger
+author: HPC Team Freiburg
+date: 2024-11-28
+title: NEMO End of Life and new Milan Nodes in NEMO1
+text: >
+  The Genoa partition for NEMO2 will be delivered on December 4th, at the same time all old NEMO1 nodes will be removed (see news).
+  <br />
+  To ease the transition, some new Milan nodes will be booted into NEMO1 and will remain available at least until January 31st.
+  <br />
+  If you have any questions, please contact the support team.
+---
 
 # ---
 # status: danger
