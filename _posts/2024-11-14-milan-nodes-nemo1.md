@@ -5,7 +5,7 @@ category: news
 tags: [NEMO2]
 date: 2024-11-15
 highlight: true
-motd: true
+motd: false
 summary: >
   The Genoa partition for NEMO2 will be delivered on December 4th, at the same time all old NEMO1 nodes will be removed.
   To ease the transition, some new Milan nodes will be booted into NEMO1 environment and will remain available until at least January 31st.
@@ -13,6 +13,8 @@ summary: >
   If demand increases, additional nodes will be added next week.
   The launch of NEMO2 is delayed due to unavailable storage, with further updates on testing and data transfer to follow once it becomes available.
 ---
+
+**UPDATE 19.12.2024:** No queue needs to be specified to submit jobs to the Milan node/partition. With or without the `-q milan` option, the jobs are sent to the same nodes.
 
 The AMD Genoa partition for NEMO2 will arrive on December 4.
 To make room for the new nodes, all old NEMO1 nodes will be decommissioned.
