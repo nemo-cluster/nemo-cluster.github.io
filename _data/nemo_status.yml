@@ -37,13 +37,17 @@
 #   for reboot timestamps (created when update starts).
 # ---
 
-# ---
-# status: success
-# author: HPC Team Freiburg
-# title: "NEMO: normal operation"
-# text: >
-#   Running on a small remaining partition.
-# ---
+---
+status: success
+author: HPC Team Freiburg
+date: 2024-12-19
+title: "NEMO: normal operation"
+text: >
+  NEMO1 currently consists of 136 Milan nodes, each with 128 cores and 512 GB RAM (>17k cores).
+  No special queue required.
+  <br />
+  Happy holidays!
+---
 
 # ---
 # status: success
@@ -245,18 +249,18 @@
 #   If you have any questions, please contact the support team.
 # ---
 
----
-status: danger
-author: HPC Team Freiburg
-date: 2024-12-06
-title: NEMO End of Life and new Milan Nodes in NEMO1
-text: >
-  NEMO1 will go back into operation on Monday.
-  We still have to reconfigure the network.
-  NEMO1 will then only contain the new Milan nodes.
-  <br />
-  If you have any questions, please contact the support team.
----
+# ---
+# status: danger
+# author: HPC Team Freiburg
+# date: 2024-12-06
+# title: NEMO End of Life and new Milan Nodes in NEMO1
+# text: >
+#   NEMO1 will go back into operation on Monday.
+#   We still have to reconfigure the network.
+#   NEMO1 will then only contain the new Milan nodes.
+#   <br />
+#   If you have any questions, please contact the support team.
+# ---
 
 # ---
 # status: danger
