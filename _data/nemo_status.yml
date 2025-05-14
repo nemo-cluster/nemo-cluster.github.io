@@ -43,10 +43,11 @@ author: HPC Team Freiburg
 date: 2024-12-19
 title: "NEMO: normal operation"
 text: >
-  NEMO1 currently consists of 136 Milan nodes, each with 128 cores and 512 GB RAM (>17k cores).
-  No special queue required.
+  NEMO2 is now in production.
   <br />
-  Happy holidays!
+  There are currently 110 Milan, 92 Genoa, 3 MI300A and 2 L40S nodes in NEMO2.
+  <br />
+  More L40S nodes will be added in the next days.
 ---
 
 # ---
