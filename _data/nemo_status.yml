@@ -48,6 +48,9 @@ text: >
   There are currently 110 Milan, 92 Genoa, 3 MI300A and 2 L40S nodes in NEMO2.
   <br />
   More L40S nodes will be added in the next days.
+  <br />
+  Unfortunately, some easybuild modules were moved due to a software problem.
+  This has now been fixed.
 ---
 
 # ---
