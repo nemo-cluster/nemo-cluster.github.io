@@ -4,7 +4,7 @@ author: NEMO Team
 category: news
 tags: [NEMO2]
 date: 2024-11-15
-highlight: true
+highlight: false
 motd: false
 summary: >
   The Genoa partition for NEMO2 will be delivered on December 4th, at the same time all old NEMO1 nodes will be removed.

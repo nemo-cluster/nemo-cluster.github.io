@@ -4,8 +4,8 @@ author: NEMO Team
 category: news
 tags: [NEMO2, Genoa]
 date: 2024-12-19
-highlight: true
-motd: true
+highlight: false
+motd: false
 summary: >
   The AMD Genoa, Machine Learning and AI partitions for NEMO2 were delivered on December 4th.
   The acceptance of the storage has been delayed, so that NEMO2 could not yet start this year.

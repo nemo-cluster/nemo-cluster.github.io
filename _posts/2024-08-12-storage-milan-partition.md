@@ -4,7 +4,7 @@ author: NEMO Team
 category: news
 tags: [NEMO2]
 date: 2024-08-12
-highlight: true
+highlight: false
 motd: false
 summary: >
     The Weka Storage and Milan partition have been successfully delivered for the new NEMO2 cluster.
