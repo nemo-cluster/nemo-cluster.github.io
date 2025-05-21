@@ -15,8 +15,8 @@
 # ---
 # status: warning
 # author: HPC Team Freiburg
-# date: 2024-01-30
-# title: Security Update February 2024
+# date: 2025-05-21
+# title: Security Update May 2025
 # text: >
 #   Starting 01.02., the operating system of NEMO's worker, vis, workflow and login nodes will be updated.
 #   <br />
@@ -38,20 +38,28 @@
 # ---
 
 ---
-status: success
+status: warning
 author: HPC Team Freiburg
-date: 2025-05-14
-title: "NEMO2: normal operation"
+date: 2025-05-21
+title: Security Update May 2025
 text: >
-  NEMO2 is now in production.
+  The login nodes will be rebooted at:
   <br />
-  There are currently 110 Milan, 92 Genoa, 3 MI300A and 2 L40S nodes in NEMO2.
+  nemo2-login1.nemo.uni-freiburg.de : 2025-05-26 07:00 CEST (scheduled)
   <br />
-  More L40S nodes will be added in the next days.
-  <br />
-  Unfortunately, some easybuild modules were moved due to a software problem.
-  This has now been fixed.
+  nemo2-login2.nemo.uni-freiburg.de : 2025-05-27 07:00 CEST (scheduled)
 ---
+
+# ---
+# status: success
+# author: HPC Team Freiburg
+# date: 2025-05-14
+# title: "NEMO2: normal operation"
+# text: >
+#   NEMO2 is now in production.
+#   <br />
+#   There are currently 110 Milan, 92 Genoa, 3 MI300A and 6 L40S nodes in NEMO2.
+# ---
 
 # ---
 # status: success
