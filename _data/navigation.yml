@@ -1,4 +1,4 @@
-nnn- name: NEMO
+- name: NEMO
   link: /nemo/
   dropdown:
     - name: Status and Statistics
