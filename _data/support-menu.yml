@@ -3,7 +3,7 @@
     - name: General Info
       link: /support/
     - name: NEMO
-      extlink: https://wiki.bwhpc.de/e/NEMO/Support
+      extlink: https://wiki.bwhpc.de/e/NEMO2/Support
     - name: bwUniCluster
       link: /bwunicluster/support/
     - name: bwForClusters / bwHPC / HPC

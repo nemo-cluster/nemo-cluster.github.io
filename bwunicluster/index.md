@@ -27,7 +27,7 @@ bwUniCluster (Copyright: Simon Raffeiner/SCC)
 
 ## Further Information
 
-Please refer to the [bwUniCluster Wiki](https://wiki.bwhpc.de/e/BwUniCluster2.0){:target="_blank"}
+Please refer to the [bwUniCluster Wiki](https://wiki.bwhpc.de/e/BwUniCluster3.0){:target="_blank"}
 for additional information. For **access**, **registration**, **two-factor-authentication** or **login**
 follow the instructions on the
 [bwUniCluster access page](https://wiki.bwhpc.de/e/Registration){:target="_blank"}.

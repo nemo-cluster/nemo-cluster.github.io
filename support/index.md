@@ -20,7 +20,7 @@ This is a general information page for all support questions around HPC.
 
 Please search the relevant information on the web pages first:
 
-- See [NEMO](https://wiki.bwhpc.de/e/NEMO/Support){:target="_blank"} section and the corresponding links, if you have questions regarding this topic.
+- See [NEMO](https://wiki.bwhpc.de/e/NEMO2/Support){:target="_blank"} section and the corresponding links, if you have questions regarding this topic.
 - See [bwUniCluster](/bwunicluster/) section and the corresponding links, if you have questions regarding this topic.
 - See [bwHPC](/bwhpc/) section and the corresponding links, if you have questions regarding **bwHPC**, **bwForCluster** and **HPC** in general.
 

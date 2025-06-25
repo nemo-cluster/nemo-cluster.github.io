@@ -25,9 +25,9 @@ Please search the relevant information on the web pages first:
 Besides the [general](/support/) information please try to describe your problem/question as detailed as possible.
 The following steps should be considered first.
 
-- If you start using bwUniCluster, please consider testing your job [interactively](https://wiki.bwhpc.de/e/BwUniCluster2.0/Batch_Queues#Interactive_Jobs){:target="_blank"} first.
-- You can always use the [development queues](https://wiki.bwhpc.de/e/BwUniCluster2.0/Batch_Queues){:target="_blank"} to test if your job is running.
-- Please debug your jobs first (see [Wiki](https://wiki.bwhpc.de/e/BwUniCluster2.0/Slurm){:target="_blank"} for more info on that).
+- If you start using bwUniCluster, please consider testing your job [interactively](https://wiki.bwhpc.de/e/BwUniCluster3.0/Running_Jobs#Interactive_Jobs:_salloc){:target="_blank"} first.
+- You can always use the [development queues](https://wiki.bwhpc.de/e/BwUniCluster3.0/Running_Jobs){:target="_blank"} to test if your job is running.
+- Please debug your jobs first (see [Wiki](https://wiki.bwhpc.de/e/BwUniCluster3.0/Running_Jobs){:target="_blank"} for more info on that).
   If you don't understand the output, please attach it to the support ticket.
 - When using the [central ticket system](https://bw-support.scc.kit.edu/){:target="_blank"},
 it is important to either select the correct support unit or even better always name the cluster you have a question about or you are experiencing the problem with.

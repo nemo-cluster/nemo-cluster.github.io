@@ -13,9 +13,9 @@ title: bwHPC Entitlements
   <div class="message-body">
     ... members of the University of Freiburg (employees and students).
     Users from other universities please check the wiki pages for acquiring the
-    <a href="https://wiki.bwhpc.de/e/BwUniCluster_Entitlement" target="_blank">bwUniCluster</a>
+    <a href="https://wiki.bwhpc.de/e/Registration/bwUniCluster/Entitlement" target="_blank">bwUniCluster</a>
     and
-    <a href="https://wiki.bwhpc.de/e/BwForCluster_Entitlement" target="_blank">bwForCluster</a>
+    <a href="https://wiki.bwhpc.de/e/Registration/bwForCluster/Entitlement" target="_blank">bwForCluster</a>
     entitlements.
   </div>
 </article>

@@ -1,13 +1,13 @@
 ---
-title: Access to NEMO
+title: Access to NEMO2
 toc: true
 ---
 
-# Access to NEMO
+# Access to NEMO2
 
-For access to NEMO, you'll need a bwForCluster entitlement (legal
+For access to NEMO2, you'll need a bwForCluster entitlement (legal
 requirement) an associated Rechenvorhaben and the registration to the
-NEMO service.
+NEMO2 service.
 
 <article class="message is-warning">
   <div class="message-header">
@@ -15,7 +15,7 @@ NEMO service.
     <button class="delete" aria-label="delete"></button>
   </div>
   <div class="message-body">
-    ... all the researchers in the state of Baden-Württemberg who want to use the bwForCluster NEMO.
+    ... all the researchers in the state of Baden-Württemberg who want to use the bwForCluster NEMO 2.
   </div>
 </article>
 
@@ -29,7 +29,7 @@ The registration process consists of 4 steps. Steps 1/2+3 can be done in paralle
   dismissable="true" %}
 
 1. **PLEASE** verify your entitlements first by visiting this
-  [page](https://bwservices.uni-freiburg.de/user/index.xhtml "User info"){:target="_blank"},
+  [page](https://login.bwidm.de/user/index.xhtml "User info"){:target="_blank"},
   Entitlements should contain
 
 ```{=html}
@@ -37,14 +37,14 @@ http://bwidm.de/entitlement/bwForCluster
 ```
 
 {:start="2"}
-2. If you don't have the **bwForCluster** entitlement, you'll need to request it to use NEMO.
+2. If you don't have the **bwForCluster** entitlement, you'll need to request it to use NEMO2.
     1. Procedure for users from
       [Freiburg](/bwhpc/entitlement/ "Entitlement form").
     2. Instructions for users from
       [other universities](https://wiki.bwhpc.de/e/Registration/bwForCluster/Entitlement){:target="_blank"}.
     3. After you receive the e-mail that your entitlement was granted,
       please **verify** your entitlements again by visiting the
-      [page](https://bwservices.uni-freiburg.de/user/index.xhtml){:target="_blank"}
+      [page](https://login.bwidm.de/user/index.xhtml){:target="_blank"}
       above.
 {% include notification.html
   status="is-primary"
@@ -63,9 +63,9 @@ http://bwidm.de/entitlement/bwForCluster
 
 {:start="4"}
 4. Register for the service
-  [**bwForCluster NEMO**](https://bwservices.uni-freiburg.de "bwForCluster NEMO"){:target="_blank"}
+  [**bwForCluster NEMO2**](https://login.bwidm.de "bwForCluster NEMO 2"){:target="_blank"}
   and
-  [set](https://bwservices.uni-freiburg.de "Set password"){:target="_blank"}
+  [set](https://login.bwidm.de "Set password"){:target="_blank"}
   a new service password.
 
 For a **detailed** registration process consult the
@@ -73,13 +73,13 @@ For a **detailed** registration process consult the
 
 ### Registration Process Scheme
 
-![NEMO Access Workflow](/img/access-workflow.png "NEMO Access Workflow")
+![NEMO2 Access Workflow](/img/access-workflow.png "NEMO2 Access Workflow")
 
 ## Login and Password Reset
 
 For
-[login to the bwForCluster NEMO](https://wiki.bwhpc.de/e/NEMO/Login){:target="_blank"}
+[login to the bwForCluster NEMO 2](https://wiki.bwhpc.de/e/NEMO2/Login){:target="_blank"}
 you'll need to set a password on the
-[NEMO service page](https://bwservices.uni-freiburg.de){:target="_blank"}.
-Just use the link in the **bwForCluster NEMO** service box. If you have forgotten your
+[NEMO2 service page](https://login.bwidm.de){:target="_blank"}.
+Just use the link in the **bwForCluster NEMO 2** service box. If you have forgotten your
 password, you can reset it the same way.
