@@ -5,7 +5,7 @@ email: "enm-support@bwhpc.de"
 description: >
   HPC cluster for Neuroscience, Elementary Particle Physics, Microsystems Engineering and Materials Science (NEMO).
 author: 2021 HPC Team, University of Freiburg
-#baseurl: "/"
+baseurl: "/"
 url: "https://www.nemo.uni-freiburg.de"
 permalink: pretty
 favicon: /img/nemo-favicon.png
