@@ -37,29 +37,29 @@
 #   for reboot timestamps (created when update starts).
 # ---
 
-# ---
-# status: warning
-# author: HPC Team Freiburg
-# date: 2025-05-21
-# title: Security Update May 2025
-# text: >
-#   The login nodes will be rebooted at:
-#   <br />
-#   nemo2-login1.nemo.uni-freiburg.de : 2025-05-26 07:00 CEST (scheduled)
-#   <br />
-#   nemo2-login2.nemo.uni-freiburg.de : 2025-05-27 07:00 CEST (scheduled)
-# ---
-
 ---
-status: success
+status: warning
 author: HPC Team Freiburg
-date: 2025-05-27
-title: "NEMO2: normal operation"
+date: 2025-07-03
+title: Security Update July 2025
 text: >
-  NEMO2 is now in production.
+  The login nodes will be rebooted at:
   <br />
-  There are currently 110 Milan, 100 Genoa, 3 MI300A and 8 L40S nodes in NEMO2.
+  login1.nemo.uni-freiburg.de : 2025-07-08 07:00 CEST (scheduled)
+  <br />
+  login2.nemo.uni-freiburg.de : 2025-07-09 07:00 CEST (scheduled)
 ---
+
+# ---
+# status: success
+# author: HPC Team Freiburg
+# date: 2025-05-27
+# title: "NEMO2: normal operation"
+# text: >
+#   NEMO2 is now in production.
+#   <br />
+#   There are currently 110 Milan, 100 Genoa, 3 MI300A and 8 L40S nodes in NEMO2.
+# ---
 
 # ---
 # status: success
