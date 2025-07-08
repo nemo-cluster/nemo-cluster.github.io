@@ -1,16 +1,25 @@
 ### title is shown as status in motd
 ### status is one of: success, warning, danger
 
-# ---
-# status: success
-# author: HPC Team Freiburg
-# date: 2024-02-02
-# title: 'NEMO: normal operation'
-# text: >
-#   Security update February applied (CentOS 7.9, Rev. 40).
-#   <br />
-#   See update log for timestamps <code>/opt/bwhpc/os-revisions/security_update_2024-02</code>.
-# ---
+---
+status: success
+author: HPC Team Freiburg
+date: 2025-07-08
+title: 'NEMO: normal operation'
+text: >
+  Security update for July has been applied.
+  <br />
+  login2 was accidentally rebooted on 2025-07-08 at 18:46 CEST.
+  <br />
+  Login hostnames for NEMO2 have changed:
+  <br />
+  login.nemo.uni-freiburg.de or
+  <br />
+  login1.nemo.uni-freiburg.de and login2.nemo.uni-freiburg.de
+  <br />
+  nemo2-login1.nemo.uni-freiburg.de and nemo2-login2.nemo.uni-freiburg.de
+  will remain valid for the next few weeks.
+---
 
 # ---
 # status: warning
@@ -37,18 +46,18 @@
 #   for reboot timestamps (created when update starts).
 # ---
 
----
-status: warning
-author: HPC Team Freiburg
-date: 2025-07-03
-title: Security Update July 2025
-text: >
-  The login nodes will be rebooted at:
-  <br />
-  login1.nemo.uni-freiburg.de : 2025-07-08 07:00 CEST (scheduled)
-  <br />
-  login2.nemo.uni-freiburg.de : 2025-07-09 07:00 CEST (scheduled)
----
+# ---
+# status: warning
+# author: HPC Team Freiburg
+# date: 2025-07-03
+# title: Security Update July 2025
+# text: >
+#   The login nodes will be rebooted at:
+#   <br />
+#   login1.nemo.uni-freiburg.de : 2025-07-08 07:00 CEST (scheduled)
+#   <br />
+#   login2.nemo.uni-freiburg.de : 2025-07-09 07:00 CEST (scheduled)
+# ---
 
 # ---
 # status: success
