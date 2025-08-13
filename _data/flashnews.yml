@@ -45,17 +45,16 @@
 
 ---
 url: /
-status: warning
+status: alert
 author: HPC Team
-date: 2025-07-09
+date: 2025-08-13
 motd: true
-title: NEMO1 Support Queue will be closed on July 20, 2025
+title: NEMO Workspace Deletion will be enabled on August 25
 text: >
-  The NEMO1 support queue will be closed on July 20, 2025.
+  On Monday, August 25, we will enable the deletion of workspaces.
+  After that, workspaces will be deleted automatically after 30 days of inactivity.
   <br />
-  Please use the new ticket system: https://bw-support.scc.kit.edu
-  <br />
-  For more information, please refer to the NEMO wiki: https://wiki.bwhpc.de/e/NEMO2/Support
+  Please log in before August 25 and extend expired workspaces if you still need them.
 ---
 
 # ---
