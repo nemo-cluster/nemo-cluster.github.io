@@ -49,12 +49,12 @@ status: danger
 author: HPC Team
 date: 2025-08-13
 motd: true
-title: NEMO Workspace Deletion will be enabled on August 25
+title: NEMO Workspace Deletion Will Be Enabled on August 25
 text: >
-  On Monday, August 25, we will enable the deletion of workspaces.
-  After that, workspaces will be deleted automatically after 30 days of inactivity.
+  On Monday, August 25, workspace deletion will be enabled.
+  After this date, workspaces will be deleted 30 days after their expiration.
   <br />
-  Please log in before August 25 and extend expired workspaces if you still need them.
+  Please log in before August 25 and extend any expired workspaces you still need.
 ---
 
 # ---
