@@ -43,19 +43,19 @@
 #   For workflows and SSH command keys, please contact NEMO support (https://wiki.bwhpc.de/e/NEMO/Login).
 # ---
 
----
-url: /
-status: danger
-author: HPC Team
-date: 2025-08-13
-motd: true
-title: NEMO Workspace Deletion Will Be Enabled on August 25
-text: >
-  On Monday, August 25, workspace deletion will be enabled.
-  After this date, workspaces will be deleted 30 days after their expiration.
-  <br />
-  Please log in before August 25 and extend any expired workspaces you still need.
----
+# ---
+# url: /
+# status: danger
+# author: HPC Team
+# date: 2025-08-13
+# motd: true
+# title: NEMO Workspace Deletion Will Be Enabled on August 25
+# text: >
+#   On Monday, August 25, workspace deletion will be enabled.
+#   After this date, workspaces will be deleted 30 days after their expiration.
+#   <br />
+#   Please log in before August 25 and extend any expired workspaces you still need.
+# ---
 
 # ---
 # url: /
