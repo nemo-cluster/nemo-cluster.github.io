@@ -2,23 +2,18 @@
 ### status is one of: success, warning, danger
 
 ---
-status: success
+status: warning
 author: HPC Team Freiburg
-date: 2025-07-08
-title: 'NEMO: normal operation'
+date: 2025-08-27
+title: 'NEMO: normal operation with limitations'
 text: >
-  Security update for July has been applied.
+  Due to a malfunction of the main cooling system, the backup system is currently in use.
+  As a result, only about 80% of the NEMO cluster is available at the moment.
+  Because of the holiday season, there are still idle nodes that can be used.
   <br />
-  login2 was accidentally rebooted on 2025-07-08 at 18:46 CEST.
+  Expired workspaces are moved to a "trash" folder and can be restored within 30 days.
   <br />
-  Login hostnames for NEMO2 have changed:
-  <br />
-  login.nemo.uni-freiburg.de or
-  <br />
-  login1.nemo.uni-freiburg.de and login2.nemo.uni-freiburg.de
-  <br />
-  nemo2-login1.nemo.uni-freiburg.de and nemo2-login2.nemo.uni-freiburg.de
-  will remain valid for the next few weeks.
+  You can use ws_restore to recover workspaces from the trash (ws_restore -l # lists all expired workspaces).
 ---
 
 # ---
