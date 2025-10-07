@@ -1,26 +1,39 @@
 ### title is shown as status in motd
 ### status is one of: success, warning, danger
 
+# ---
+# status: warning
+# author: HPC Team Freiburg
+# date: 2025-10-07
+# title: 'NEMO: normal operation with limitations'
+# text: >
+#   Due to a malfunction of the main cooling system, the backup system is currently in use.
+#   As a result, only about 80% of the NEMO cluster is available at the moment.
+#   Because of the holiday season, there are still idle nodes that can be used.
+#   <br />
+#   Expired workspaces are moved to a "trash" folder and can be restored within 30 days.
+#   <br />
+#   You can use ws_restore to recover workspaces from the trash (ws_restore -l # lists all expired workspaces).
+# ---
+
 ---
 status: warning
 author: HPC Team Freiburg
-date: 2025-08-27
-title: 'NEMO: normal operation with limitations'
+date: 2025-10-07
+title: Security Update October 2025
 text: >
-  Due to a malfunction of the main cooling system, the backup system is currently in use.
-  As a result, only about 80% of the NEMO cluster is available at the moment.
-  Because of the holiday season, there are still idle nodes that can be used.
+  The login nodes will be rebooted at:
   <br />
-  Expired workspaces are moved to a "trash" folder and can be restored within 30 days.
+  login1.nemo.uni-freiburg.de : 2025-10-09 07:00 CEST (scheduled)
   <br />
-  You can use ws_restore to recover workspaces from the trash (ws_restore -l # lists all expired workspaces).
+  login2.nemo.uni-freiburg.de : 2025-10-10 07:00 CEST (scheduled)
 ---
 
 # ---
 # status: warning
 # author: HPC Team Freiburg
-# date: 2025-05-21
-# title: Security Update May 2025
+# date: 2025-10-07
+# title: Security Update Oct 2025
 # text: >
 #   Starting 01.02., the operating system of NEMO's worker, vis, workflow and login nodes will be updated.
 #   <br />
@@ -39,19 +52,6 @@ text: >
 #   Worker nodes automatically reboot after the last job finishes, see
 #   /opt/bwhpc/os-revisions/security_update_2024-02
 #   for reboot timestamps (created when update starts).
-# ---
-
-# ---
-# status: warning
-# author: HPC Team Freiburg
-# date: 2025-07-03
-# title: Security Update July 2025
-# text: >
-#   The login nodes will be rebooted at:
-#   <br />
-#   login1.nemo.uni-freiburg.de : 2025-07-08 07:00 CEST (scheduled)
-#   <br />
-#   login2.nemo.uni-freiburg.de : 2025-07-09 07:00 CEST (scheduled)
 # ---
 
 # ---
