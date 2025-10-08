@@ -1,33 +1,29 @@
 ### title is shown as status in motd
 ### status is one of: success, warning, danger
 
+---
+status: success
+author: HPC Team Freiburg
+date: 2025-10-08
+title: 'NEMO: normal operation'
+text: >
+  Security update October 2025 applied.
+  <br />
+  Unfortunately, SLURM rebooted the login nodes earlier than planned.
+---
+
 # ---
 # status: warning
 # author: HPC Team Freiburg
 # date: 2025-10-07
-# title: 'NEMO: normal operation with limitations'
+# title: Security Update October 2025
 # text: >
-#   Due to a malfunction of the main cooling system, the backup system is currently in use.
-#   As a result, only about 80% of the NEMO cluster is available at the moment.
-#   Because of the holiday season, there are still idle nodes that can be used.
+#   The login nodes will be rebooted at:
 #   <br />
-#   Expired workspaces are moved to a "trash" folder and can be restored within 30 days.
+#   login1.nemo.uni-freiburg.de : 2025-10-09 07:00 CEST (scheduled)
 #   <br />
-#   You can use ws_restore to recover workspaces from the trash (ws_restore -l # lists all expired workspaces).
+#   login2.nemo.uni-freiburg.de : 2025-10-10 07:00 CEST (scheduled)
 # ---
-
----
-status: warning
-author: HPC Team Freiburg
-date: 2025-10-07
-title: Security Update October 2025
-text: >
-  The login nodes will be rebooted at:
-  <br />
-  login1.nemo.uni-freiburg.de : 2025-10-09 07:00 CEST (scheduled)
-  <br />
-  login2.nemo.uni-freiburg.de : 2025-10-10 07:00 CEST (scheduled)
----
 
 # ---
 # status: warning
