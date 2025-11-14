@@ -1,29 +1,29 @@
 ### title is shown as status in motd
 ### status is one of: success, warning, danger
 
----
-status: success
-author: HPC Team Freiburg
-date: 2025-10-08
-title: 'NEMO: normal operation'
-text: >
-  Security update October 2025 applied.
-  <br />
-  Unfortunately, SLURM rebooted the login nodes earlier than planned.
----
-
 # ---
-# status: warning
+# status: success
 # author: HPC Team Freiburg
-# date: 2025-10-07
-# title: Security Update October 2025
+# date: 2025-10-08
+# title: 'NEMO: normal operation'
 # text: >
-#   The login nodes will be rebooted at:
+#   Security update October 2025 applied.
 #   <br />
-#   login1.nemo.uni-freiburg.de : 2025-10-09 07:00 CEST (scheduled)
-#   <br />
-#   login2.nemo.uni-freiburg.de : 2025-10-10 07:00 CEST (scheduled)
+#   Unfortunately, SLURM rebooted the login nodes earlier than planned.
 # ---
+
+---
+status: warning
+author: HPC Team Freiburg
+date: 2025-11-14
+title: Security Update November 2025
+text: >
+  The login nodes will be rebooted at:
+  <br />
+  login1.nemo.uni-freiburg.de : 2025-11-17 07:00 CEST (scheduled)
+  <br />
+  login2.nemo.uni-freiburg.de : 2025-11-18 07:00 CEST (scheduled)
+---
 
 # ---
 # status: warning
