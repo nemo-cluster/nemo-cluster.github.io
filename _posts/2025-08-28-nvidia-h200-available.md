@@ -4,8 +4,8 @@ author: NEMO Team
 category: news
 tags: [NEMO2, Hardware, Nvidia H200]
 date: 2025-08-28
-highlight: true
-motd: true
+highlight: false
+motd: false
 summary: >
   Two new GPU nodes with 8× NVIDIA H200, 192 cores, 1.5 TB RAM, and 3.8 TB NVMe are now available in NEMO2 for testing via the "h200" partition.
   No software modules are installed yet.
