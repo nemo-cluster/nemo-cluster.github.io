@@ -7,7 +7,7 @@ date: 2025-12-18
 highlight: true
 motd: true
 summary: >
-  NEMO2 has undergone a rolling upgrade with security updates, firmware/BIOS upgrades, and Slurm 25.05.5. Jobs continued running throughout the process as we work toward 100% uptime.
+  NEMO2 has undergone a rolling upgrade with security, firmware/BIOS, and Slurm 25.05.5 updates. We planned and executed all steps to keep downtime for users as minimal as possible. Running jobs continued without interruption throughout the process.
 ---
 
 ## NEMO2 Rolling Upgrade Completed
@@ -40,12 +40,6 @@ During the rolling upgrade:
 
 ### We Value Your Feedback
 
-If you experienced any issues during the upgrade or have feedback about the process, please let us know! Submit a ticket at:
+If you have questions, feedback, or experienced any issues during the upgrade, please contact our support team via the ticket system:
 
 **https://bw-support.scc.kit.edu**
-
-Your input helps us continue improving our maintenance procedures and minimize future disruptions.
-
-### Questions?
-
-For any questions about the upgrade or if you notice unexpected behavior, please don't hesitate to contact our support team through the ticket system.
