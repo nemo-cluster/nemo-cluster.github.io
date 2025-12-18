@@ -40,6 +40,4 @@ During the rolling upgrade:
 
 ### We Value Your Feedback
 
-If you have questions, feedback, or experienced any issues during the upgrade, please contact our support team via the ticket system:
-
-**https://bw-support.scc.kit.edu**
+If you have questions, feedback, or experienced any issues during the upgrade, please contact our support team via the **[ticket system](https://bw-support.scc.kit.edu)**.
