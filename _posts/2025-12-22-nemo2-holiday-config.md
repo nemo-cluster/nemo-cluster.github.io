@@ -26,9 +26,7 @@ To conserve energy during the holidays, we will shut down a portion of the compu
 
 ### Questions or Issues?
 
-If you have questions about the holiday configuration or experience any issues, please submit a ticket at:
-
-https://bw-support.scc.kit.edu
+If you have questions about the holiday configuration or experience any issues, please submit a **[ticket](https://bw-support.scc.kit.edu)**.
 
 ---
 
