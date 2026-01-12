@@ -4,8 +4,8 @@ author: NEMO Team
 category: news
 tags: [NEMO2, Maintenance, Queue Limits, Energy Saving]
 date: 2025-12-22
-highlight: true
-motd: true
+highlight: false
+motd: false
 summary: >
   Over the holiday period, we're increasing queue limits to 10,000 jobs while reducing cluster capacity for energy savings. Normal operation resumes automatically on January 7, 2026.
 ---
