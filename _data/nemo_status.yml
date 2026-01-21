@@ -1,18 +1,18 @@
 ### title is shown as status in motd
 ### status is one of: success, warning, danger
 
----
-status: success
-author: HPC Team Freiburg
-date: 2025-12-18
-title: 'NEMO: normal operation'
-text: >
-  Security update December 2025 applied.
-  <br />
-  * Firmware update of servers and login nodes
-  <br />
-  * Slurm update to version 25.05.5
----
+# ---
+# status: success
+# author: HPC Team Freiburg
+# date: 2025-12-18
+# title: 'NEMO: normal operation'
+# text: >
+#   Security update December 2025 applied.
+#   <br />
+#   * Firmware update of servers and login nodes
+#   <br />
+#   * Slurm update to version 25.05.5
+# ---
 
 # ---
 # status: warning
@@ -26,6 +26,21 @@ text: >
 #   <br />
 #   login2.nemo.uni-freiburg.de : 2025-12-17 16:00 CET (scheduled)
 # ---
+
+---
+status: success
+author: HPC Team Freiburg
+date: 2026-01-21
+title: 'NEMO: normal operation'
+text: >
+  SSH configuration issue on login nodes has been fixed.
+  <br />
+  * Local authorized_keys files are no longer accepted (was never intended)
+  <br />
+  * Only password+OTP or SSH keys from login.bwidm.de are supported
+  <br />
+  * See: https://www.nemo.uni-freiburg.de/news/2026/01/21/ssh-configuration-change/
+---
 
 # ---
 # status: warning
