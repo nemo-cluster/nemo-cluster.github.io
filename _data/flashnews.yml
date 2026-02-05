@@ -45,7 +45,7 @@
 
 ---
 url: /
-status: warning
+status: danger
 author: HPC Team
 date: 2026-02-05
 motd: true
