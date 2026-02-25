@@ -43,19 +43,19 @@
 #   For workflows and SSH command keys, please contact NEMO support (https://wiki.bwhpc.de/e/NEMO/Login).
 # ---
 
----
-url: /
-status: danger
-author: HPC Team
-date: 2026-02-05
-motd: true
-title: Email System Disrupted - Check Workspace Expiration
-text: >
-  Email system has been disrupted since mid-December.
-  No notifications about expiring workspaces were sent.
-  <br />
-  Please check your workspace expiration dates and extend them if needed.
----
+# ---
+# url: /
+# status: danger
+# author: HPC Team
+# date: 2026-02-05
+# motd: true
+# title: Email System Disrupted - Check Workspace Expiration
+# text: >
+#   Email system has been disrupted since mid-December.
+#   No notifications about expiring workspaces were sent.
+#   <br />
+#   Please check your workspace expiration dates and extend them if needed.
+# ---
 
 # ---
 # url: /
