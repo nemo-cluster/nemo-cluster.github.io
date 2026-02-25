@@ -14,12 +14,14 @@ The statewide academic license agreement for MathWorks products (such as MATLAB)
 
 ## Recommended Alternatives
 
-We encourage users to migrate to open-source alternatives that are available on NEMO2, for example:
+We encourage users to migrate to open-source alternatives, for example:
 
 - [GNU Octave](https://octave.org/) – largely MATLAB-compatible scripting language
 - [Julia](https://julialang.org/) – high-performance language for numerical and scientific computing
 - [Python](https://www.python.org/) with libraries such as NumPy, SciPy, and Matplotlib
 - [R](https://www.r-project.org/) – statistical computing and graphics
+
+Not all of these are available on NEMO2 yet, but we can provide them on request. Please contact the helpdesk (see below).
 
 ## Using Your Own MathWorks License
 
