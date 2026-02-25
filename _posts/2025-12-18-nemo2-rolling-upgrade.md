@@ -4,8 +4,8 @@ author: NEMO Team
 category: news
 tags: [NEMO2, Maintenance, Upgrade, Slurm]
 date: 2025-12-18
-highlight: true
-motd: true
+highlight: false
+motd: false
 summary: >
   NEMO2 has undergone a rolling upgrade with security, firmware/BIOS, and Slurm 25.05.5 updates. We planned and executed all steps to keep downtime for users as minimal as possible. Running jobs continued without interruption throughout the process.
 ---

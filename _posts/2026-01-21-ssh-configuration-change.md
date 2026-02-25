@@ -4,8 +4,8 @@ author: NEMO Team
 category: news
 tags: [NEMO, Security, SSH, Authentication]
 date: 2026-01-21
-highlight: true
-motd: true
+highlight: false
+motd: false
 summary: >
     An SSH configuration issue on the login nodes has been fixed. SSH keys stored in local authorized_keys files are no longer accepted. This behavior was never intended - please use SSH keys configured in login.bwidm.de instead.
 ---
