@@ -40,7 +40,7 @@ Group leaders or experienced researchers register once for their research group 
 The cluster is **not chosen by the user** — it is assigned based on research focus and hardware requirements. All bwForClusters require a brief project description at registration.
 
 - [Register for bwForCluster](https://wiki.bwhpc.de/e/Registration/bwForCluster){:target="_blank"}
-- [Registration details for Freiburg users](/nemo/access/)
+- [NEMO 2 Wiki](https://wiki.bwhpc.de/e/NEMO2){:target="_blank"}.
 
 ## News
 
