@@ -55,13 +55,7 @@ feed:
   categories:
     - events
     - news
-    - newsletters
     - social
-
-collections:
-  newsletters:
-    output: true
-    permalink: /:collection/:year/:month/:title/
 
 defaults:
   -
@@ -83,15 +77,6 @@ defaults:
       show_sidebar: false
   -
     scope:
-      path: "newsletters"
-      type: "newsletters"
-    values:
-      author: "NEMO Team Freiburg"
-      layout: post
-      hide_hero: true
-      show_sidebar: false
-  -
-    scope:
       path: "_posts"
       type: "posts"
     values:
@@ -102,17 +87,7 @@ defaults:
       show_sidebar: true
   -
     scope:
-      path: "_newsletters"
-      type: "newsletters"
-    values:
-      author: "NEMO Team Freiburg"
-      layout: post
-      hide_hero: false
-      hero_image: /img/node_small.jpg
-      image: /img/node_small.jpg
-      show_sidebar: true
-  -
-    scope:
+
       path: "nemo"
       type: "pages"
     values:

@@ -37,6 +37,3 @@
   link: /support/
 - name: News
   link: /news/
-  dropdown:
-    - name: Newsletters
-      link: /newsletters/
