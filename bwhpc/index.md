@@ -37,13 +37,44 @@ Researchers at the University of Freiburg can apply for access to other bwForClu
 
 For research in **Structural & Systems Biology, Medical Sciences, Soft Matter, Digital Humanities and Mathematics & CS**.
 
-355 standard + 15 fat nodes (2× AMD EPYC 7513, 64 cores; fat nodes with 2 TB RAM). GPU: 29 nodes × 4× NVIDIA A40, 26 nodes × 4× A100 (40 GB), 4 nodes × 8× A100 (80 GB, 2 TB RAM), 3 nodes × 8× H200 (141 GB, 2.3 TB RAM). Network: non-blocking InfiniBand HDR (200 Gbit/s). Storage: ~11 PB IBM Spectrum Scale (~800 TB Flash).
+Network: non-blocking InfiniBand HDR (200 Gbit/s). Storage: ~11 PB IBM Spectrum Scale (~800 TB Flash).
+
+**CPU nodes:**
+
+| Type | Nodes | CPUs | Cores | RAM |
+|------|------:|------|------:|----:|
+| Standard | 355 | 2× AMD EPYC 7513 | 64 | 256 GB |
+| Fat | 15 | 2× AMD EPYC 7513 | 64 | 2 TB |
+
+**GPU nodes:**
+
+| Nodes | GPUs | GPU RAM |
+|------:|------|--------:|
+| 29 | 4× NVIDIA A40 | 48 GB each |
+| 26 | 4× NVIDIA A100 | 40 GB each |
+| 4 | 8× NVIDIA A100 | 80 GB each, 2 TB RAM |
+| 3 | 8× NVIDIA H200 | 141 GB each, 2.3 TB RAM |
 
 ### bwForCluster BinAC 2 (Tübingen)
 
 For research in **Bioinformatics, Astrophysics, Geosciences, Pharmacy and Medical Informatics**. OS: Rocky Linux 9.
 
-180 standard nodes (2× AMD EPYC Milan, 64 cores, 512 GB RAM) + 16 SMP nodes (2 TB RAM). GPU: 32 nodes × 2× NVIDIA A30 (24 GB), 8 nodes × 4× A100 (80 GB), 4 nodes × 4× H200 NVL (141 GB HBM3e, 1.5 TB RAM). Network: HDR InfiniBand / 100 GbE. Storage: 8.1 PB Lustre.
+Network: HDR InfiniBand / 100 GbE. Storage: 8.1 PB Lustre.
+
+**CPU nodes:**
+
+| Type | Nodes | CPUs | Cores | RAM |
+|------|------:|------|------:|----:|
+| Standard | 180 | 2× AMD EPYC Milan | 64 | 512 GB |
+| SMP | 16 | — | — | 2 TB |
+
+**GPU nodes:**
+
+| Nodes | GPUs | GPU RAM |
+|------:|------|--------:|
+| 32 | 2× NVIDIA A30 | 24 GB each |
+| 8 | 4× NVIDIA A100 | 80 GB each |
+| 4 | 4× NVIDIA H200 NVL | 141 GB HBM3e each, 1.5 TB RAM |
 
 ### bwForCluster JUSTUS 2 (Ulm)
 
