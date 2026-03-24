@@ -1,137 +1,30 @@
 ---
 layout: page
 title: bwHPC Entitlements
-redirect_to: https://uni-freiburg.de/forms-en/application-for-bwhpc-entitlements/
+toc: true
 ---
 
-# bwUniCluster and bwForCluster Entitlement
+# bwHPC Entitlements
 
-<article class="message is-warning">
-  <div class="message-header">
-    <p>This form is only applicable for ...</p>
-    <button class="delete" aria-label="delete"></button>
-  </div>
-  <div class="message-body">
-    ... members of the University of Freiburg (employees and students).
-    Users from other universities please check the wiki pages for acquiring the
-    <a href="https://wiki.bwhpc.de/e/Registration/bwUniCluster/Entitlement" target="_blank">bwUniCluster</a>
-    and
-    <a href="https://wiki.bwhpc.de/e/Registration/bwForCluster/Entitlement" target="_blank">bwForCluster</a>
-    entitlements.
-  </div>
-</article>
+An **entitlement** is a legal prerequisite for using bwHPC clusters. It confirms to the cluster operator that your computing activities comply with German foreign trade law (AWG/AWV). The entitlement is linked to your university account.
 
-## Application for bwUniCluster and bwForCluster Entitlement
+## Which entitlement do I need?
 
-To use the bwUniCluster or bwForCluster you'll need an entitlement, which will be connected to your university account.
+- **bwForCluster entitlement** — required for registration on NEMO 2, Helix, BinAC 2 and JUSTUS 2
+- **bwUniCluster entitlement** — required for registration on bwUniCluster 3.0
 
-- The **bwForCluster** entitlement you'll need for registering to the bwForClusters in Freiburg, Heidelberg/Mannheim, Tübingen and Ulm.
-- The **bwUniCluster** entitlement is necessary for registering at the bwUniCluster in Karlsruhe.
+You will normally receive both within two working days. After approval, synchronisation across sites can take up to 24 additional hours.
 
-This is a required legal procedure. You should get the entitlements within two working days.
-If not, please [contact](/privacy-policy/) us.
+## Check existing entitlements
 
-Please fill out the following form.
+Visit [login.bwidm.de](https://login.bwidm.de/user/index.xhtml){:target="_blank"}, select the **Shibboleth** tab, and check whether `urn:oid:1.3.6.1.4.1.5923.1.1.1.7` contains `http://bwidm.de/entitlement/bwUniCluster` and/or `http://bwidm.de/entitlement/bwForCluster`.
 
-{% include mailto.html %}
+## Apply for entitlements (University of Freiburg)
 
-<form id="form" name="form" method="get" action="/bwhpc/mail/" onsubmit="sendMail();">
-<div class="field is-horizontal">
-    <div class="field-label is-normal">
-        <label class="label">Name</label>
-    </div>
-    <div class="field-body">
-        <div class="field">
-            <p class="control is-expanded has-icons-left">
-                <input class="input" type="text" name="name" id="name" placeholder="Given Name and Surname" required>
-                <span class="icon is-small is-left">
-                    <i class="fas fa-address-card"></i>
-                </span>
-            </p>
-        </div>
-    </div>
-</div>
-<div class="field is-horizontal">
-    <div class="field-label is-normal">
-        <label class="label">UserID/Username</label>
-    </div>
-    <div class="field-body">
-        <div class="field">
-            <p class="control is-expanded has-icons-left">
-                <input class="input" type="text" name="uid" id="uid" placeholder="UserID/Username" required>
-                <span class="icon is-small is-left">
-                    <i class="fas fa-user"></i>
-                </span>
-            </p>
-            <p class="help">Your University ID that you use to login to <a href="https://myaccount.uni-freiburg.de/" target="_blank">myAccount</a>.
-            </p>
-        </div>
-    </div>
-</div>
-<div class="field is-horizontal">
-    <div class="field-label is-normal">
-        <label class="label">Entitlements</label>
-    </div>
-    <div class="field-body">
-        <div class="field">
-            <p class="control">
-                <label class="checkbox">
-                    <input type="checkbox" checked disabled>
-                    bwUniCluster
-                </label>
-                <label class="checkbox">
-                    <input type="checkbox" checked disabled>
-                    bwForCluster
-                </label>
-                <p class="help is-success">You will automatically apply for both Entitlements!</p>
-            </p>
-        </div>
-    </div>
-</div>
-<div class="field is-horizontal">
-    <div class="field-label is-normal">
-        <label class="label">Agreement</label>
-    </div>
-    <div class="field-body">
-        <div class="field">
-            <p class="control">
-                <ul>
-                    <li>
-                        Verwaltungs- und Benutzungsordnung
-                            <a href="https://www.rz.uni-freiburg.de/de/inhalt/dokumente/ordnungen/vbo.pdf/at_download/file" target='_blank'>(VBO)</a>
-                    </li>
-                    <li>
-                        Benutzungsordnung für die vom Rechenzentrum der Albert-Ludwigs-Universität angebotenen Netzdienste
-                            <a href="https://www.rz.uni-freiburg.de/de/inhalt/dokumente/ordnungen/nbo.pdf/at_download/file" target='_blank'>(NBO)</a>
-                    </li>
-                    <li>
-                        Netzordnung für das Freiburger Universitäts Netz
-                            <a href="https://www.rz.uni-freiburg.de/de/inhalt/dokumente/ordnungen/no.pdf/at_download/file" target='_blank'>(NO)</a>
-                    </li>
-                </ul>
-                <label class="checkbox">
-                    <input type="checkbox" required>
-                        <strong>
-                            I confirm that I have read the documents and agree with the terms and conditions.
-                        </strong>
-                </label>
-            </p>
-        </div>
-    </div>
-</div>
-<div class="field is-horizontal">
-    <div class="field-label">
-        <!-- Left empty for spacing -->
-    </div>
-    <div class="field-body">
-        <div class="field is-grouped">
-            <div class="control">
-                <button class="button is-link" type="submit">Submit</button>
-            </div>
-            <div class="control">
-                <button class="button is-link is-light" type="reset">Reset</button>
-            </div>
-        </div>
-    </div>
-</div>
-</form>
+Members of the University of Freiburg (staff and students) apply via the external form:
+
+[**Apply for bwHPC Entitlements**](https://uni-freiburg.de/forms-en/application-for-bwhpc-entitlements/){:target="_blank" .button .is-primary}
+
+Users from other universities follow the instructions on the bwHPC wiki:
+- [bwUniCluster entitlement](https://wiki.bwhpc.de/e/Registration/bwUniCluster/Entitlement){:target="_blank"}
+- [bwForCluster entitlement](https://wiki.bwhpc.de/e/Registration/bwForCluster/Entitlement){:target="_blank"}
