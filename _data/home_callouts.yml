@@ -1,23 +1,23 @@
 height: is-small
 items:
-  - title: Access
-    subtitle: How-to Access NEMO
-    icon: fa-terminal
+  - title: NEMO 2
+    subtitle: bwForCluster NEMO 2
+    icon: fa-server
     description: >
-      Information on how-to gain access to bwForCluster NEMO.
-    call_to_action_name: Access NEMO
-    call_to_action_link: /nemo/access/
-  - title: Status and Statistics
-    subtitle: NEMO Status
-    icon: fa-chart-bar
+      Hardware specs, access, registration and status for bwForCluster NEMO 2 in Freiburg.
+    call_to_action_name: About NEMO 2
+    call_to_action_link: /nemo/
+  - title: bwUniCluster 3.0
+    subtitle: General-purpose HPC
+    icon: fa-network-wired
     description: >
-      HPC, NEMO documentation and links to bwHPC.
-    call_to_action_name: Show NEMO Status
-    call_to_action_link: /nemo/stat/
-  - title: News
-    subtitle: NEMO News
+      Available to all researchers and students in Baden-Württemberg without project proposal.
+    call_to_action_name: About bwUniCluster
+    call_to_action_link: /bwunicluster/
+  - title: Support
+    subtitle: Help and Training
+    icon: fa-life-ring
     description: >
-      Read our latest news regarding NEMO and bwHPC.
-    icon: fa-newspaper
-    call_to_action_name: Read the News
-    call_to_action_link: /news/
+      Support channels, training courses and useful links for all bwHPC clusters.
+    call_to_action_name: Get Support
+    call_to_action_link: /support/

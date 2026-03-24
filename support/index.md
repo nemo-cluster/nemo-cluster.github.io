@@ -1,58 +1,62 @@
 ---
-title: General Support Info
+title: Support
+toc: true
 ---
-# General Support Info
 
-<article class="message is-warning">
-  <div class="message-header">
-    <p>This support information is for ...</p>
-    <button class="delete" aria-label="delete"></button>
-  </div>
-  <div class="message-body">
-    ... all the researchers in the state of Baden-Württemberg who (want to) use one of
-    the bwHPC clusters (bwForCluster, bwUniCluster) and are interested in HPC in general.
-  </div>
-</article>
+# Support
 
-This is a general information page for all support questions around HPC.
+This page covers support for all researchers using bwHPC clusters (bwForCluster, bwUniCluster).
 
-## What to do first
+## Getting Help
 
-Please search the relevant information on the web pages first:
+Search the relevant documentation first:
 
-- See [NEMO](https://wiki.bwhpc.de/e/NEMO2/Support){:target="_blank"} section and the corresponding links, if you have questions regarding this topic.
-- See [bwUniCluster](/bwunicluster/) section and the corresponding links, if you have questions regarding this topic.
-- See [bwHPC](/bwhpc/) section and the corresponding links, if you have questions regarding **bwHPC**, **bwForCluster** and **HPC** in general.
+- [NEMO 2 Support Wiki](https://wiki.bwhpc.de/e/NEMO2/Support){:target="_blank"} — for NEMO 2 questions
+- [bwUniCluster 3.0 Wiki](https://wiki.bwhpc.de/e/BwUniCluster3.0){:target="_blank"} — for bwUniCluster questions
+- [bwHPC Wiki](https://wiki.bwhpc.de/e/Main_Page){:target="_blank"} — documentation, guides, FAQs for all clusters
 
-Please try to use your work email address if it is possible. That way we can see that the requests are valid and see where you come from.
+For technical support, open a ticket via the **bwHPC Support Portal**:
+
+- [bwHPC Support Portal](https://wiki.bwhpc.de/e/BwSupportPortal){:target="_blank"} — for all bwHPC clusters
+- [hpc-support@rz.uni-freiburg.de](mailto:hpc-support@rz.uni-freiburg.de) — NEMO 2 / Freiburg-specific support
+
+## When Contacting Support
+
+Please provide the following information:
+
+- Your name and contact email (university address preferred)
+- Your username at the cluster (including prefix, e.g. `fr_`)
+- Which cluster the question concerns
+- When did the problem occur (date, time) and where (node, login node, etc.)
+
+Both English and German are accepted. For the central ticket system, English is preferred.
+
 <article class="message is-info">
-  <div class="message-header">
-    <p>Users from Freiburg</p>
-    <button class="delete" aria-label="delete"></button>
-  </div>
+  <div class="message-header"><p>Users from Freiburg</p></div>
   <div class="message-body">
-    We recommend that you use your university email address as your "preferred" address.
-    You can change this in <a href="https://myaccount.uni-freiburg.de/" target="_blank">myAccount</a>.
-    The "preferred" email address is used within the bwHPC.
+    Use your university email address as your "preferred" address. You can set this in
+    <a href="https://myaccount.uni-freiburg.de/" target="_blank">myAccount</a>.
+    This address is used within the bwHPC systems.
   </div>
 </article>
 
-## When contacting support
+## Training and Courses
 
-Please always use the correct support unit and add the following Information when contacting support:
+The bwHPC initiative offers training for beginners and advanced users:
 
-- Who are you (name)?
-- What ist your contact (email, university email address preferred)?
-  - Where are you from (university, if not specified in e-mail address).
-- Who is your user at the cluster/university (username, incl. prefix e.g `fr_`)?
-- Which cluster does it concern?
-- If applicable: When did this happen (date and time) and where (node, e.g. login node, host, desktop pc, etc.)?
-- How to contact: Usually it is OK to use English and German when contacting support.
-  The support units support both languages.
-  While for the central ticket system and other clusters English is favorable to address a broader audience,
-  you can use the language which is easier for you when contacting NEMO support,
-  since all members of the ticket system speak German.
+- [bwHPC eLearning](https://training.bwhpc.de/){:target="_blank"} — online courses on Linux basics, cluster usage and job submission
+- [bwHPC Courses](https://www.bwhpc.de/courses_a_tutorials.html){:target="_blank"} — instructor-led courses throughout Baden-Württemberg
 
-Usually the first information is given automatically, when you have configured your email client correctly.
-But this info ist still necessary when you use web forms, etc.
-We can find out this information ourselves, but it costs us extra time.
+## Useful Links
+
+| Topic | Link |
+|-------|------|
+| Running jobs | [Running Calculations](https://wiki.bwhpc.de/e/Running_Calculations){:target="_blank"} |
+| Software modules | [Environment Modules](https://wiki.bwhpc.de/e/Environment_Modules){:target="_blank"} |
+| Data transfer | [Data Transfer](https://wiki.bwhpc.de/e/Data_Transfer){:target="_blank"} |
+| Compilers & MPI | [Development](https://wiki.bwhpc.de/e/Development){:target="_blank"} |
+| Cluster status | [Status](https://wiki.bwhpc.de/e/Status){:target="_blank"} |
+
+## Acknowledgement
+
+If you use bwHPC resources for your research, please acknowledge this in your publications. See the [NEMO 2 Acknowledgement page](https://wiki.bwhpc.de/e/NEMO2/Acknowledgement){:target="_blank"} for the recommended text.

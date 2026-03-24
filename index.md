@@ -6,23 +6,12 @@ callouts: home_callouts
 hide_hero: false
 hero_image: /img/nemo.jpg
 hero_height: is-large
-twitter_posts: false
-twitter_url: "https://twitter.com/..."
-twitter_lang: en
 show_sidebar: true
 nemo_events: true
 nemo_status: true
 flashnews: true
 ---
 
-## bwHPC
+The University of Freiburg operates **[bwForCluster NEMO 2](/nemo/)** as part of **[bwHPC](/bwhpc/)**, the state-wide high-performance computing initiative of Baden-Württemberg. bwHPC provides access to compute clusters and storage infrastructure for research and teaching across all universities in the state.
 
-The state of Baden-Württemberg offers many HPC resources in the state.
-For example the bwHPC clusters ([bwForClusters](/bwhpc/), [bwUniCluster](/bwunicluster/)) at the entry level
-are available for researchers and students from the state of Baden-Württemberg.
-
-### bwForCluster NEMO
-
-The bwForClusters are for researchers in selected research fields.
-The bwForCluster [NEMO](/nemo/) in Freiburg is available for researchers of the scientific communities:
-Neuroscience, Elementary Particle Physics, Microsystems Engineering and Material Science.
+NEMO 2 is available for researchers in the communities: **N**euroscience, **E**lementary Particle Physics, **M**icrosystems Engineering and **M**aterial Sciences. The complementary **[bwUniCluster 3.0](/bwunicluster/)** (at KIT) is available to all researchers and students in Baden-Württemberg without project proposal.

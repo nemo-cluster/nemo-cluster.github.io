@@ -1,60 +1,63 @@
 ---
 title: The bwHPC Project
+toc: true
 ---
-# The bwHPC Project
 
-The state of Baden-Württemberg offers many
-[HPC resources](http://www.bwhpc.de){:target="_blank"}
-in the state. For example the
-[bwHPC clusters](https://www.bwhpc.de/cluster.php){:target="_blank"}
-(bwForClusters, bwUniCluster) at the entry level are available for
-researchers and students from the state of Baden-Württemberg. They run a
-wide range of Open Source and commercial software packages. Researchers
-with a very high demand in computing resources can use clusters and
-supercomputers at higher levels.
+# bwHPC
 
-The bwForClusters are for researchers in selected research fields.
-The
-[bwForCluster NEMO](/nemo/)
-in Freiburg is available for researchers of the scientific
-communities: **N**euroscience, **E**lementary Particle Physics,
-**M**icrosystems Engineering and **M**aterial Science. The
-[bwUniCluster](/bwunicluster/)
-is available for all researchers and students from the state of BW.
+**bwHPC** (Baden-Württemberg High Performance Computing) is a state-wide initiative that provides integrated computing and data storage infrastructure for research and teaching. It is funded by the Ministry of Science, Research and Arts (MWK) Baden-Württemberg, the German Research Foundation (DFG), and the ten state universities.
 
-![bwHPC Competence Centers](/img/nemo-cc.png "bwHPC Competence Centers"){:width="600px" .center-image}
+## bwHPC-S5
 
-All available bwHPC clusters including access, hardware, software configuration are described in the
-[central wiki](https://wiki.bwhpc.de){:target="_blank"}
-as well. Here you can find the information about the installed software
-and how to
-[run batch jobs](https://wiki.bwhpc.de/e/Running_Calculations){:target="_blank"}
-on the clusters.
+**bwHPC-S5** (Scientific Simulation and Storage Support Services) is the coordinating project for user support across all bwHPC clusters. It connects all ten state universities in a federated support network and covers three areas:
 
-The bwHPC clusters use the
-[module environment system](https://wiki.bwhpc.de/e/Environment_Modules){:target="_blank"}
-This means that you\'ll have to load the correct module first to have a
-software installation available on the cluster.
+- **HPC:** Technical operation, user support and further development of bwUniCluster 3.0, NEMO 2, Helix, BinAC 2 and JUSTUS 2
+- **Data Intensive Computing (DIC):** Support for processing large datasets in research, development and teaching
+- **Large Scale Scientific Data Management (LS2DM):** Coordination of data acquisition, analysis, storage, archiving and publication
 
-We provide
-[help](https://www.bwhpc.de/support.html){:target="_blank"}
-for the technical side of the clusters and for the software packages as
-well. But because our resources are limited we can only give some hints
-and can\'t give ready solutions. We expect that users first try to solve
-their problems within a research group and use the material they can
-find in the wiki and in other documentations. We are not experts in all
-the software which is available on the clusters, so we would have to
-route these questions to other experts, as well. But there is the
-possibility to call for tiger team support on a regular basis, e.g.
-parallelization of code. This will be announced on the central web site
-and the newsletter.
+[bwHPC Website](https://www.bwhpc.de/){:target="_blank"} · [bwHPC Wiki](https://wiki.bwhpc.de/){:target="_blank"} · [bwHPC eLearning](https://training.bwhpc.de/){:target="_blank"}
 
-The
-[bwHPC-S5 project](http://www.bwhpc.de){:target="_blank"}
-offers
-[regular courses](https://www.bwhpc.de/courses_a_tutorials.html){:target="_blank"}
-throughout the state of Baden-Württemberg featuring introductions and
-advanced topics for using the bwHPC clusters.
-If you would like to have a course you can\'t find on the course list,
-please send us a request for that and who is interested in which topics.
-We can then try to provide this course at one site.
+## Available bwHPC Clusters
+
+| Cluster | Location | Scientific Communities |
+|---------|----------|----------------------|
+| [bwUniCluster 3.0](https://wiki.bwhpc.de/e/BwUniCluster3.0){:target="_blank"} | KIT (Karlsruhe) | All fields, teaching |
+| [bwForCluster NEMO 2](/nemo/) | Freiburg | Neuroscience, Particle Physics, Materials Science, Microsystems Engineering |
+| [bwForCluster Helix](https://wiki.bwhpc.de/e/Helix){:target="_blank"} | Heidelberg | Structural & Systems Biology, Medical Sciences, Soft Matter, Digital Humanities, Mathematics & CS |
+| [bwForCluster BinAC 2](https://wiki.bwhpc.de/e/BinAC2){:target="_blank"} | Tübingen | Bioinformatics, Astrophysics, Geosciences, Pharmacy, Medical Informatics |
+| [bwForCluster JUSTUS 2](https://wiki.bwhpc.de/e/JUSTUS2){:target="_blank"} | Ulm | Theoretical Chemistry, Condensed Matter Physics, Quantum Sciences |
+
+## Other bwForClusters
+
+Researchers at the University of Freiburg can apply for access to other bwForClusters in addition to NEMO 2. The appropriate cluster is **not chosen by the user** — it is assigned based on research focus and hardware requirements. All bwForClusters require a short project description at registration.
+
+[Registration for bwForCluster](https://wiki.bwhpc.de/e/Registration/bwForCluster){:target="_blank"}
+
+### bwForCluster Helix (Heidelberg)
+
+For research in **Structural & Systems Biology, Medical Sciences, Soft Matter, Digital Humanities and Mathematics & CS**.
+
+355 standard + 15 fat nodes (2× AMD EPYC 7513, 64 cores; fat nodes with 2 TB RAM). GPU: 29 nodes × 4× NVIDIA A40, 26 nodes × 4× A100 (40 GB), 4 nodes × 8× A100 (80 GB, 2 TB RAM), 3 nodes × 8× H200 (141 GB, 2.3 TB RAM). Network: non-blocking InfiniBand HDR (200 Gbit/s). Storage: ~11 PB IBM Spectrum Scale (~800 TB Flash).
+
+### bwForCluster BinAC 2 (Tübingen)
+
+For research in **Bioinformatics, Astrophysics, Geosciences, Pharmacy and Medical Informatics**. OS: Rocky Linux 9.
+
+180 standard nodes (2× AMD EPYC Milan, 64 cores, 512 GB RAM) + 16 SMP nodes (2 TB RAM). GPU: 32 nodes × 2× NVIDIA A30 (24 GB), 8 nodes × 4× A100 (80 GB), 4 nodes × 4× H200 NVL (141 GB HBM3e, 1.5 TB RAM). Network: HDR InfiniBand / 100 GbE. Storage: 8.1 PB Lustre.
+
+### bwForCluster JUSTUS 2 (Ulm)
+
+For research in **Theoretical Chemistry, Condensed Matter Physics and Quantum Sciences**. OS: Rocky Linux 8.
+
+692 compute nodes, 33,696 cores. All nodes: 2× Intel Xeon Gold 6252 (Cascade Lake, 24 cores each), Omni-Path 100 Gbit/s.
+
+| Type | Nodes | Cores | RAM |
+|------|------:|------:|----:|
+| Standard | 456 | 48 | 192 GB |
+| Medium | 44 | 48 | 384 GB |
+| SSD | 148 | 48 | 384 GB + 2× 1.6 TB NVMe |
+| Medium SSD | 20 | 48 | 768 GB + 2× 1.6 TB NVMe |
+| Large SSD | 8 | 48 | 1,536 GB + 5× 1.6 TB NVMe |
+| GPU | 14 | 48 | 192 GB + 2× NVIDIA V100S |
+
+Storage: 250 TB `$HOME` (with backup) + 1,200 TB workspaces (Lustre).

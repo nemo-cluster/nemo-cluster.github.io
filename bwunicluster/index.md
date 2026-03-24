@@ -1,33 +1,40 @@
 ---
-title: bwUniCluster
+title: bwUniCluster 3.0
+toc: true
 ---
 
-# bwUniCluster
+# bwUniCluster 3.0
 
-The modern bwUniCluster 2.0 system consists of more than 840 SMP nodes with 64-bit Intel Xeon processors.
-It provides the universities of the state of Baden-Württemberg with general compute resources and can be
-used free of charge by the staff of all universities in Baden-Württemberg. Users who had access to the old
-bwUniCluster will automatically also have access to bwUniCluster 2.0. There is no need to apply for new
-entitlements or to re-register.
+The **bwUniCluster 3.0** is the shared general-purpose HPC system of the universities and universities of applied sciences in Baden-Württemberg. It is located at the Scientific Computing Center (SCC) of the Karlsruhe Institute of Technology (KIT).
 
-The University of Freiburg has a share in the bwUniCluster. As such, all students and scientists of the
-University of Freiburg are entitled to make use of this entry-level HPC system for their studies,
-their research and their teaching activities.
-There is no need to submit a project proposal. You are competing for compute time with other users from
-Freiburg by virtue of your own fairshare-value.
+The bwUniCluster complements the field-specific bwForClusters and serves as the **entry-level system** for HPC in research and teaching. All researchers and students at Baden-Württemberg universities can use it free of charge — **no project proposal required**.
 
-The bwUniCluster is a part the overall bwHPC strategy of the state of Baden-Würrtemberg for high- and
-highest-performance computing in research and education. It is complemented by its sibling bwForClusters,
-which offer computational resources to specific scientific communities.
+In operation since April 2025. Over 370 nodes connected via fast InfiniBand. OS: Red Hat Enterprise Linux 9.
 
-![bwUniCluster](/img/bwuni.jpg "bwUniCluster (Copyright: Simon Raffeiner/SCC)"){:width="600px" .center-image}
+## Hardware
 
-{:.image-caption}
-bwUniCluster (Copyright: Simon Raffeiner/SCC)
+**CPU nodes:**
 
-## Further Information
+| Type | Nodes | CPUs | Cores | RAM |
+|------|------:|------|------:|----:|
+| Standard | 70 | 2× AMD EPYC 9454 | 96 | 384 GiB |
+| Ice Lake | 272 | 2× Intel Xeon Platinum 8358 | 64 | 256 GiB |
+| High Memory | 4 | 2× AMD EPYC 9454 | 96 | 2,304 GiB |
 
-Please refer to the [bwUniCluster Wiki](https://wiki.bwhpc.de/e/BwUniCluster3.0){:target="_blank"}
-for additional information. For **access**, **registration**, **two-factor-authentication** or **login**
-follow the instructions on the
-[bwUniCluster access page](https://wiki.bwhpc.de/e/Registration){:target="_blank"}.
+**GPU nodes:**
+
+| Type | Nodes | Cores | GPUs | RAM |
+|------|------:|------:|------|----:|
+| NVIDIA H100 | 12 | 96 | 4× H100 (94 GiB each) | 768 GiB |
+| AMD MI300A | 1 | 4× APU MI300A (96 cores each) | 4× 128 GiB HBM3 | — |
+| NVIDIA A100/H100 Ice Lake | 15 | 64 | 4× A100 or H100 | 512 GiB |
+| NVIDIA A100 Cascade Lake | 19 | 48 | 4× A100 (40 GiB each) | 384 GiB |
+
+**Storage:** Two parallel Lustre filesystems for `$HOME` and workspaces, plus local NVMe SSDs on every node.
+
+## Registration
+
+Self-registration with a valid university account is sufficient — no project description required. You must complete a questionnaire within 14 days of registration, otherwise access will be temporarily suspended.
+
+- [Register for bwUniCluster 3.0](https://wiki.bwhpc.de/e/Registration/bwUniCluster){:target="_blank"}
+- [bwUniCluster 3.0 Wiki](https://wiki.bwhpc.de/e/BwUniCluster3.0){:target="_blank"}
