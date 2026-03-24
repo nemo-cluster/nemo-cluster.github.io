@@ -6,11 +6,5 @@
       link: /nemo/stat/
     - name: Access
       link: /nemo/access/
-    - name: Login
-      extlink: https://wiki.bwhpc.de/e/NEMO2/Login
-    - name: Getting Started
-      extlink: https://wiki.bwhpc.de/e/NEMO2/Start
-    - name: Acknowledgement
-      extlink: https://wiki.bwhpc.de/e/NEMO2/Acknowledgement
     - name: NEMO 2 Wiki
       extlink: https://wiki.bwhpc.de/e/NEMO2

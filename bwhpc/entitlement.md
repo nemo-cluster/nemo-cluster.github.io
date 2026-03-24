@@ -1,6 +1,7 @@
 ---
 layout: page
 title: bwHPC Entitlements
+redirect_to: https://uni-freiburg.de/forms-en/application-for-bwhpc-entitlements/
 ---
 
 # bwUniCluster and bwForCluster Entitlement
