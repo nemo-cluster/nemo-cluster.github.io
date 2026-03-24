@@ -3,25 +3,11 @@
   dropdown:
     - name: Status and Statistics
       link: /nemo/stat/
-    - name: Access
-      link: /nemo/access/
-    - name: Login
-      extlink: https://wiki.bwhpc.de/e/NEMO2/Login
-    - name: Getting Started
-      extlink: https://wiki.bwhpc.de/e/NEMO2/Start
-    - name: Acknowledgement
-      extlink: https://wiki.bwhpc.de/e/NEMO2/Acknowledgement
     - name: NEMO 2 Wiki
       extlink: https://wiki.bwhpc.de/e/NEMO2
 - name: bwUniCluster
   link: /bwunicluster/
   dropdown:
-    - name: Access and Registration
-      extlink: https://wiki.bwhpc.de/e/Registration/bwUniCluster
-    - name: Login
-      extlink: https://wiki.bwhpc.de/e/BwUniCluster3.0/Login
-    - name: Getting Started
-      extlink: https://wiki.bwhpc.de/e/BwUniCluster3.0/Getting_Started
     - name: bwUniCluster 3.0 Wiki
       extlink: https://wiki.bwhpc.de/e/BwUniCluster3.0
 - name: bwHPC
@@ -29,8 +15,6 @@
   dropdown:
     - name: Entitlements (Freiburg)
       link: /bwhpc/entitlement/
-    - name: bwHPC Project
-      extlink: https://www.bwhpc.de/
     - name: bwHPC Wiki
       extlink: https://wiki.bwhpc.de/
 - name: Support

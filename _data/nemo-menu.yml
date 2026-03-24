@@ -4,7 +4,5 @@
       link: /nemo/
     - name: Status and Statistics
       link: /nemo/stat/
-    - name: Access
-      link: /nemo/access/
     - name: NEMO 2 Wiki
       extlink: https://wiki.bwhpc.de/e/NEMO2

@@ -42,7 +42,7 @@ The cluster is **not chosen by the user** — it is assigned based on research f
 - [Register for bwForCluster](https://wiki.bwhpc.de/e/Registration/bwForCluster){:target="_blank"}
 - [Registration details for Freiburg users](/nemo/access/)
 
-## News and Newsletters
+## News
 
-We publish news and important information on our [newsletters](/newsletters/) and [news](/news/) pages.
+We publish news and important information on our [news](/news/) page.
 To subscribe to the mailing list, send an e-mail to [hpc-news-subscribe@hpc.uni-freiburg.de](mailto:hpc-news-subscribe@hpc.uni-freiburg.de).
