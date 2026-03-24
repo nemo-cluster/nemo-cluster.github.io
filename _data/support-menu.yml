@@ -2,9 +2,9 @@
   items:
     - name: General Info
       link: /support/
-    - name: NEMO
+    - name: NEMO 2 Support Wiki
       extlink: https://wiki.bwhpc.de/e/NEMO2/Support
-    - name: bwUniCluster
-      link: /bwunicluster/support/
-    - name: bwForClusters / bwHPC / HPC
-      link: /bwhpc/support/
+    - name: bwHPC Support Portal
+      extlink: https://wiki.bwhpc.de/e/BwSupportPortal
+    - name: bwHPC Wiki
+      extlink: https://wiki.bwhpc.de/e/Main_Page

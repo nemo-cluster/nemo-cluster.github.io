@@ -1,14 +1,12 @@
-- label: bwUniCluster
+- label: bwUniCluster 3.0
   items:
     - name: About
       link: /bwunicluster/
-    - name: Support
-      link: /bwunicluster/support/
-    - name: Access
-      extlink: https://wiki.bwhpc.de/e/Registration
-    - name: Login and Troubleshooting
+    - name: Access and Registration
+      extlink: https://wiki.bwhpc.de/e/Registration/bwUniCluster
+    - name: Login
       extlink: https://wiki.bwhpc.de/e/BwUniCluster3.0/Login
     - name: Getting Started
       extlink: https://wiki.bwhpc.de/e/BwUniCluster3.0/Getting_Started
-    - name: Wiki and News
+    - name: bwUniCluster 3.0 Wiki
       extlink: https://wiki.bwhpc.de/e/BwUniCluster3.0

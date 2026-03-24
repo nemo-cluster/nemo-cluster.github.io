@@ -2,9 +2,7 @@
   items:
     - name: About
       link: /bwhpc/
-    - name: Support
-      link: /bwhpc/support/
-    - name: bwHPC Entitlements
+    - name: Entitlements (Freiburg)
       link: /bwhpc/entitlement/
     - name: bwHPC Project
       extlink: https://www.bwhpc.de/
