@@ -39,12 +39,16 @@ date: 2026-05-26
 motd: true
 title: "Final call: bwHPC user survey 2026 (May 31) — power outage update"
 text: >
-  <strong>bwHPC user survey 2026:</strong> Please participate by May 31st —
-  <a href="https://evaluation.uni-ulm.de/evasys/online.php?p=bw_hpc26" target="_blank">survey link</a>.
+  bwHPC user survey 2026: Please participate by May 31st:
   <br />
-  <strong>Power outage update (21.05.2026, 17:27 CEST):</strong> A power outage triggered a UPS failure:
-  during switchover to battery backup, one battery in each redundant ring developed an open-circuit fault,
-  dropping the voltage to zero. This caused an abrupt shutdown of our core infrastructure and parallel storage.
+  https://evaluation.uni-ulm.de/evasys/online.php?p=bw_hpc26
+  <br />
+  Power outage update (21.05.2026, 17:27 CEST):
+  <br />
+  A power outage triggered a UPS failure:
+  during switchover to battery backup, one battery in each redundant ring
+  developed an open-circuit fault, dropping the voltage to zero.
+  This caused an abrupt shutdown of our core infrastructure and parallel storage.
   We are investigating how to prevent this in the future.
 ---
 
