@@ -31,17 +31,22 @@
 #   <a href="https://wiki.bwhpc.de/e/BwUniCluster_2.0_Maintenance/2022-03" target="_blank">https://wiki.bwhpc.de/e/BwUniCluster_2.0_Maintenance/2022-03</a>
 # ---
 
-# ---
-# url: /news/2023/10/11/Enforcing-2FA-on-NEMO/
-# status: danger
-# author: HPC Team
-# date: 2023-12-11
-# motd: true
-# title: Enforcing Two-factor Authentication on NEMO
-# text: >
-#   2FA logins are now enforced on NEMO (https://wiki.bwhpc.de/e/Registration/2FA).
-#   For workflows and SSH command keys, please contact NEMO support (https://wiki.bwhpc.de/e/NEMO/Login).
-# ---
+---
+url: https://evaluation.uni-ulm.de/evasys/online.php?p=bw_hpc26
+status: warning
+author: HPC Team
+date: 2026-05-26
+motd: true
+title: "Final call: bwHPC user survey 2026 (May 31) — power outage update"
+text: >
+  <strong>bwHPC user survey 2026:</strong> Please participate by May 31st —
+  <a href="https://evaluation.uni-ulm.de/evasys/online.php?p=bw_hpc26" target="_blank">survey link</a>.
+  <br />
+  <strong>Power outage update (21.05.2026, 17:27 CEST):</strong> A power outage triggered a UPS failure:
+  during switchover to battery backup, one battery in each redundant ring developed an open-circuit fault,
+  dropping the voltage to zero. This caused an abrupt shutdown of our core infrastructure and parallel storage.
+  We are investigating how to prevent this in the future.
+---
 
 # ---
 # url: /
