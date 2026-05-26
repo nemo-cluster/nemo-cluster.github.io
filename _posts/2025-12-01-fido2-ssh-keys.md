@@ -4,8 +4,8 @@ author: NEMO Team
 category: news
 tags: [NEMO2, Yubikey, FIDO2, SSH Keys]
 date: 2025-12-01
-highlight: true
-motd: true
+highlight: false
+motd: false
 summary: >
   FIDO2 SSH keys are now available on NEMO 2! Login with your Yubikey hardware token - no 2-factor unlock required. Keys work immediately after registration and provide enhanced security through hardware-protected authentication. Get started with our Quick Start Guide.
 ---

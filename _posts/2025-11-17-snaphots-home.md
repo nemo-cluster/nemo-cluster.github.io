@@ -4,8 +4,8 @@ author: NEMO Team
 category: news
 tags: [NEMO2, Weka, Snapshots]
 date: 2025-11-17
-highlight: true
-motd: true
+highlight: false
+motd: false
 summary: >
   Automated snapshots of user home directories are now active. Recover accidentally deleted files with hourly, daily, and weekly snapshots.
 ---

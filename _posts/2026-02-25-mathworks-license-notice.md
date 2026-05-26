@@ -4,8 +4,8 @@ author: NEMO Team
 category: news
 tags: [NEMO2, Software, MATLAB, MathWorks]
 date: 2026-02-25
-highlight: true
-motd: true
+highlight: false
+motd: false
 summary: >
     The statewide academic license agreement for MathWorks products at Baden-Württemberg universities expires on March 31, 2026. There will be no general MathWorks license available on NEMO2 specifically. Universities and other clusters may handle this differently. Please consider using open-source alternatives or contact us if you hold your own license.
 ---
