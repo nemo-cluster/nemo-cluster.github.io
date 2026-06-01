@@ -32,17 +32,13 @@
 # ---
 
 ---
-url: https://evaluation.uni-ulm.de/evasys/online.php?p=bw_hpc26
-status: warning
+url: /
+status: info
 author: HPC Team
 date: 2026-05-26
 motd: true
-title: "Final call: bwHPC user survey 2026 (May 31) — power outage update"
+title: "Power outage update"
 text: >
-  bwHPC user survey 2026: Please participate by May 31st:
-  <br />
-  https://evaluation.uni-ulm.de/evasys/online.php?p=bw_hpc26
-  <br />
   Power outage update (21.05.2026, 17:27 CEST):
   <br />
   A power outage triggered a UPS failure:
