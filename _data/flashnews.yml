@@ -31,22 +31,22 @@
 #   <a href="https://wiki.bwhpc.de/e/BwUniCluster_2.0_Maintenance/2022-03" target="_blank">https://wiki.bwhpc.de/e/BwUniCluster_2.0_Maintenance/2022-03</a>
 # ---
 
----
-url: /
-status: info
-author: HPC Team
-date: 2026-05-26
-motd: true
-title: "Power outage update"
-text: >
-  Power outage update (21.05.2026, 17:27 CEST):
-  <br />
-  A power outage triggered a UPS failure:
-  during switchover to battery backup, one battery in each redundant ring
-  developed an open-circuit fault, dropping the voltage to zero.
-  This caused an abrupt shutdown of our core infrastructure and parallel storage.
-  We are investigating how to prevent this in the future.
----
+# ---
+# url: /
+# status: info
+# author: HPC Team
+# date: 2026-05-26
+# motd: true
+# title: "Power outage update"
+# text: >
+#   Power outage update (21.05.2026, 17:27 CEST):
+#   <br />
+#   A power outage triggered a UPS failure:
+#   during switchover to battery backup, one battery in each redundant ring
+#   developed an open-circuit fault, dropping the voltage to zero.
+#   This caused an abrupt shutdown of our core infrastructure and parallel storage.
+#   We are investigating how to prevent this in the future.
+# ---
 
 # ---
 # url: /
