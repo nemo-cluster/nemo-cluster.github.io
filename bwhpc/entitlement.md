@@ -17,7 +17,10 @@ You will normally receive both within two working days. After approval, synchron
 
 ## Check existing entitlements
 
-Visit [login.bwidm.de](https://login.bwidm.de/user/index.xhtml){:target="_blank"}, select the **Shibboleth** tab, and check whether `urn:oid:1.3.6.1.4.1.5923.1.1.1.7` contains `http://bwidm.de/entitlement/bwUniCluster` and/or `http://bwidm.de/entitlement/bwForCluster`.
+You can check your entitlements directly via these links (login required):
+
+- [Check bwUniCluster entitlement](https://login.bwidm.de/user/index.xhtml?show=entitlement&highlight=bwUniCluster){:target="_blank"}
+- [Check bwForCluster entitlement](https://login.bwidm.de/user/index.xhtml?show=entitlement&highlight=bwForCluster){:target="_blank"}
 
 ## Apply for entitlements (University of Freiburg)
 
