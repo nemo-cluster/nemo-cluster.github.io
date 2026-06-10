@@ -18,7 +18,7 @@ Search the relevant documentation first:
 For technical support, open a ticket via the **bwHPC Support Portal**:
 
 - [bwHPC Support Portal](https://wiki.bwhpc.de/e/BwSupportPortal){:target="_blank"} — for all bwHPC clusters
-- [hpc-support@rz.uni-freiburg.de](mailto:hpc-support@rz.uni-freiburg.de) — NEMO 2 / Freiburg-specific support
+- [hpc-team@rz.uni-freiburg.de](mailto:hpc-team@rz.uni-freiburg.de) — HPC consulting (e.g. procurement advice, new faculty onboarding). **Not a technical support queue** — please use the bwHPC Support Portal above for technical issues.
 
 ## When Contacting Support
 

@@ -12,7 +12,7 @@ This is a webpage for HPC at the University of Freiburg, Germany and the bwForCl
 For bwForcluster NEMO, bwUniCluster, bwHPC, general HPC support refer to the corresponding [support](/support/) pages.
 
 If you need to contact us by e-mail write to
-[hpc-support@hpc.uni-freiburg.de](mailto:hpc-support@hpc.uni-freiburg.de)
+[hpc-team@rz.uni-freiburg.de](mailto:hpc-team@rz.uni-freiburg.de)
 
 ## Data Protection Policy (GDPR)
 
