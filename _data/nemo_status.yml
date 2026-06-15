@@ -14,18 +14,21 @@
 #   * Slurm update to version 25.05.5
 # ---
 
-# ---
-# status: warning
-# author: HPC Team Freiburg
-# date: 2026-05-20
-# title: Security Update May 2026
-# text: >
-#   The login nodes will be rebooted at:
-#   <br />
-#   login/login1.nemo.uni-freiburg.de : 2026-05-21 18:00 CEST (scheduled)
-#   <br />
-#   login2.nemo.uni-freiburg.de : 2026-05-2 07:00 CEST (scheduled)
-# ---
+---
+status: warning
+author: HPC Team Freiburg
+date: 2026-06-15
+title: Configuration Update June 2026
+text: >
+  The login nodes will be rebooted at:
+  <br />
+  login/login1.nemo.uni-freiburg.de : 2026-06-17 07:00 CEST (scheduled)
+  <br />
+  login2.nemo.uni-freiburg.de : 2026-06-15 19:00 CEST (already rebooted)
+  <br />
+  Worker nodes are rebooted automatically after their last job finishes
+  (rolling reboot started 2026-06-15 19:00 CEST).
+---
 
 # ---
 # status: success
@@ -42,18 +45,18 @@
 #   * See: https://www.nemo.uni-freiburg.de/news/2026/01/21/ssh-configuration-change/
 # ---
 
----
-status: success
-author: HPC Team Freiburg
-date: 2026-05-22
-title: 'NEMO: normal operation'
-text: >
-  There has been a power outage on 21.05.2026 at 17:27 CEST.
-  UPS failure caused an abrupt shutdown of our core infrastructure and parallel storage.
-  All nodes were rebooted and are operational again.
-  <br />
-  We have applied the security update May 2026.
----
+# ---
+# status: success
+# author: HPC Team Freiburg
+# date: 2026-05-22
+# title: 'NEMO: normal operation'
+# text: >
+#   There has been a power outage on 21.05.2026 at 17:27 CEST.
+#   UPS failure caused an abrupt shutdown of our core infrastructure and parallel storage.
+#   All nodes were rebooted and are operational again.
+#   <br />
+#   We have applied the security update May 2026.
+# ---
 
 # ---
 # status: warning
