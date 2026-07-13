@@ -220,15 +220,23 @@ text: >
   Multiple security vulnerabilities currently exist for which exploit
   code is already available. To prevent misuse, we are forced to
   shut down login access.
+  <br />
   Jobs that are already running will not be terminated and continue
   to run as normal. The cluster itself keeps running; only login is
   not possible until the security issues have been resolved.
-  We hope to restore login access this week. If you have any questions,
-  please contact the NEMO2 team.
+  <br />
+  We hope to restore login access by Friday, July 17th.
+  <br />
+  If you have any questions, please contact the NEMO2 team.
+  <br />
   For data transfers, see:
+  <br />
   https://wiki.bwhpc.de/e/NEMO2/SSH-Login-Disabled-Data-Transfer
+  <br />
   Known vulnerabilities:
+  <br />
   https://kb.ciq.com/article/rocky-linux/rl-bad-epoll-mitigation
+  <br />
   https://kb.ciq.com/article/rocky-linux/rl-ghostlock-mitigation
 ---
 
