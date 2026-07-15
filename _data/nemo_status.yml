@@ -1,14 +1,14 @@
 ### title is shown as status in motd
 ### status is one of: success, warning, danger
 
-# ---
-# status: success
-# author: HPC Team Freiburg
-# date: 2026-06-17
-# title: 'NEMO: normal operation'
-# text: >
-#   Configuration update June 2026 applied.
-# ---
+---
+status: success
+author: HPC Team Freiburg
+date: 2026-07-15
+title: 'NEMO: normal operation'
+text: >
+  Security updates July 2026 have been applied.
+---
 
 # ---
 # status: warning
@@ -211,34 +211,34 @@
 #   During maintenance, the operating system of the cluster is updated.
 # ---
 
----
-status: danger
-author: NEMO2 Team
-date: 2026-07-08
-title: Security Shutdown - Login Disabled
-text: >
-  Multiple security vulnerabilities currently exist for which exploit
-  code is already available. To prevent misuse, we are forced to
-  shut down login access.
-  <br />
-  Jobs that are already running will not be terminated and continue
-  to run as normal. The cluster itself keeps running; only login is
-  not possible until the security issues have been resolved.
-  <br />
-  We hope to restore login access by Friday, July 17th.
-  <br />
-  If you have any questions, please contact the NEMO2 team.
-  <br />
-  For data transfers, see:
-  <br />
-  https://wiki.bwhpc.de/e/NEMO2/SSH-Login-Disabled-Data-Transfer
-  <br />
-  Known vulnerabilities:
-  <br />
-  https://kb.ciq.com/article/rocky-linux/rl-bad-epoll-mitigation
-  <br />
-  https://kb.ciq.com/article/rocky-linux/rl-ghostlock-mitigation
----
+# ---
+# status: danger
+# author: NEMO2 Team
+# date: 2026-07-08
+# title: Security Shutdown - Login Disabled
+# text: >
+#   Multiple security vulnerabilities currently exist for which exploit
+#   code is already available. To prevent misuse, we are forced to
+#   shut down login access.
+#   <br />
+#   Jobs that are already running will not be terminated and continue
+#   to run as normal. The cluster itself keeps running; only login is
+#   not possible until the security issues have been resolved.
+#   <br />
+#   We hope to restore login access by Friday, July 17th.
+#   <br />
+#   If you have any questions, please contact the NEMO2 team.
+#   <br />
+#   For data transfers, see:
+#   <br />
+#   https://wiki.bwhpc.de/e/NEMO2/SSH-Login-Disabled-Data-Transfer
+#   <br />
+#   Known vulnerabilities:
+#   <br />
+#   https://kb.ciq.com/article/rocky-linux/rl-bad-epoll-mitigation
+#   <br />
+#   https://kb.ciq.com/article/rocky-linux/rl-ghostlock-mitigation
+# ---
 
 # ---
 # status: warning
