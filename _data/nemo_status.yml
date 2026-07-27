@@ -1,14 +1,14 @@
 ### title is shown as status in motd
 ### status is one of: success, warning, danger
 
----
-status: success
-author: HPC Team Freiburg
-date: 2026-07-23
-title: 'NEMO: normal operation'
-text: >
-  Security updates July 2026 (2nd) have been applied.
----
+# ---
+# status: success
+# author: HPC Team Freiburg
+# date: 2026-07-23
+# title: 'NEMO: normal operation'
+# text: >
+#   Security updates July 2026 (2nd) have been applied.
+# ---
 
 # ---
 # status: warning
@@ -26,20 +26,28 @@ text: >
 #   (rolling reboot started 2026-06-15 19:00 CEST).
 # ---
 
-# ---
-# status: success
-# author: HPC Team Freiburg
-# date: 2026-01-21
-# title: 'NEMO: normal operation'
-# text: >
-#   SSH configuration issue on login nodes has been fixed.
-#   <br />
-#   * Local authorized_keys files are no longer accepted (was never intended)
-#   <br />
-#   * Only password+OTP or SSH keys from login.bwidm.de are supported
-#   <br />
-#   * See: https://www.nemo.uni-freiburg.de/news/2026/01/21/ssh-configuration-change/
-# ---
+---
+status: warning
+author: HPC Team Freiburg
+date: 2026-07-27
+title: Login Node Issues July 2026
+text: >
+  We are currently experiencing issues on the login nodes.
+  <br />
+  The Weka client on the login nodes ran out of control and filled up
+  the entire filesystem on the logins. We have now applied a limit and
+  hope this resolves the issue. We are also in contact with Weka
+  support.
+  <br />
+  If one login node is down, please use the other one:
+  <br />
+  login1.nemo.uni-freiburg.de
+  <br />
+  login2.nemo.uni-freiburg.de
+  <br />
+  A single unresponsive login node is not considered a critical issue
+  on our end and will not necessarily be fixed immediately.
+---
 
 # ---
 # status: success
