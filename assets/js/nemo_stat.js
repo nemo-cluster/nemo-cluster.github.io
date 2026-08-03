@@ -23,8 +23,8 @@ $.ajax({
         },
         404: function (response) {
             console.log('Status data unavailable');
-            $('#statinfo').append('Queues and statistics are currently only visible when using IP addresses from a university from Baden-Württemberg. \
-                External access (e.g. from home) is only possible when using a VPN or tunneling your IP traffic through your university.');
+            $('#statinfo').append('There are currently no publicly available statistics for NEMO2. \
+                These may become available again at some undefined point in the future.');
             $('.tabs').remove();
             $('#nemo-queue').remove();
             $('#nemo-queue-text').remove();
