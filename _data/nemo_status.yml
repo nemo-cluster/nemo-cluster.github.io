@@ -10,44 +10,44 @@
 #   Security updates July 2026 (2nd) have been applied.
 # ---
 
-# ---
-# status: warning
-# author: HPC Team Freiburg
-# date: 2026-06-15
-# title: Configuration Update June 2026
-# text: >
-#   The login nodes will be rebooted at:
-#   <br />
-#   login/login1.nemo.uni-freiburg.de : 2026-06-17 07:00 CEST (scheduled)
-#   <br />
-#   login2.nemo.uni-freiburg.de : 2026-06-15 19:00 CEST (already rebooted)
-#   <br />
-#   Worker nodes are rebooted automatically after their last job finishes
-#   (rolling reboot started 2026-06-15 19:00 CEST).
-# ---
-
 ---
 status: warning
 author: HPC Team Freiburg
-date: 2026-07-27
-title: Login Node Issues July 2026
+date: 2026-08-03
+title: Security Update 1 - August 2026
 text: >
-  We are currently experiencing issues on the login nodes.
+  The login nodes will be rebooted at:
   <br />
-  The Weka client on the login nodes ran out of control and filled up
-  the entire filesystem on the logins. We have now applied a limit and
-  hope this resolves the issue. We are also in contact with Weka
-  support.
+  login/login1.nemo.uni-freiburg.de : 2026-08-05 07:00 CEST (scheduled)
   <br />
-  If one login node is down, please use the other one:
+  login2.nemo.uni-freiburg.de : 2026-08-04 18:00 CEST (already rebooted)
   <br />
-  login1.nemo.uni-freiburg.de
-  <br />
-  login2.nemo.uni-freiburg.de
-  <br />
-  A single unresponsive login node is not considered a critical issue
-  on our end and will not necessarily be fixed immediately.
+  Worker nodes are rebooted automatically after their last job finishes
+  (rolling reboot started 2026-08-03 14:00 CEST).
 ---
+
+# ---
+# status: warning
+# author: HPC Team Freiburg
+# date: 2026-07-27
+# title: Login Node Issues July 2026
+# text: >
+#   We are currently experiencing issues on the login nodes.
+#   <br />
+#   The Weka client on the login nodes ran out of control and filled up
+#   the entire filesystem on the logins. We have now applied a limit and
+#   hope this resolves the issue. We are also in contact with Weka
+#   support.
+#   <br />
+#   If one login node is down, please use the other one:
+#   <br />
+#   login1.nemo.uni-freiburg.de
+#   <br />
+#   login2.nemo.uni-freiburg.de
+#   <br />
+#   A single unresponsive login node is not considered a critical issue
+#   on our end and will not necessarily be fixed immediately.
+# ---
 
 # ---
 # status: success
