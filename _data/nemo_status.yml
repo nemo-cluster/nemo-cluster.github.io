@@ -20,7 +20,7 @@ text: >
   <br />
   login/login1.nemo.uni-freiburg.de : 2026-08-05 07:00 CEST (scheduled)
   <br />
-  login2.nemo.uni-freiburg.de : 2026-08-04 18:00 CEST (already rebooted)
+  login2.nemo.uni-freiburg.de : 2026-08-04 18:00 CEST (scheduled)
   <br />
   Worker nodes are rebooted automatically after their last job finishes
   (rolling reboot started 2026-08-03 14:00 CEST).
