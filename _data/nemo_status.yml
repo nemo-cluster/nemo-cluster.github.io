@@ -1,18 +1,18 @@
 ### title is shown as status in motd
 ### status is one of: success, warning, danger
 
----
-status: success
-author: HPC Team Freiburg
-date: 2026-08-03
-title: 'NEMO: normal operation'
-text: >
-  Security Update 1 - August 2026 has been applied successfully.
-  <br />
-  Unfortunately, due to a configuration error, Slurm also rebooted the
-  login nodes outside the scheduled maintenance window. We apologize for
-  the inconvenience.
----
+# ---
+# status: success
+# author: HPC Team Freiburg
+# date: 2026-08-03
+# title: 'NEMO: normal operation'
+# text: >
+#   Security Update 1 - August 2026 has been applied successfully.
+#   <br />
+#   Unfortunately, due to a configuration error, Slurm also rebooted the
+#   login nodes outside the scheduled maintenance window. We apologize for
+#   the inconvenience.
+# ---
 
 # ---
 # status: warning
@@ -252,25 +252,25 @@ text: >
 #   https://kb.ciq.com/article/rocky-linux/rl-ghostlock-mitigation
 # ---
 
-# ---
-# status: warning
-# author: HPC Team Freiburg
-# date: 2024-03-19
-# title: Scheduled Power Maintenance 09.04.2024
-# text: >
-#   Inspection of the data center's power supply.
-#   <br />
-#   <br />
-#   <strong>Date: 09.04.2024 6:00 - 18:00 CEST</strong>
-#   <br />
-#   <br />
-#   The entire NEMO cluster is shut down.
-#   No calculations are possible during maintenance, so submit all jobs in good time.
-#   Please note that only jobs whose walltime fits into the time window until maintenance can be started.
-#   Jobs that cannot start will only be processed afterwards.
-#   However, in the event of problems, the queue may have to be emptied.
-#   During maintenance, the operating system of the cluster is updated.
-# ---
+---
+status: warning
+author: HPC Team Freiburg
+date: 2026-08-21
+title: Scheduled Power Maintenance 15.09.2026
+text: >
+  Inspection of the data center's power supply.
+  <br />
+  <br />
+  <strong>Date: 15.09.2026 6:00 - 18:00 CEST</strong>
+  <br />
+  <br />
+  The entire NEMO cluster is shut down.
+  No calculations are possible during maintenance, so submit all jobs in good time.
+  Please note that only jobs whose walltime fits into the time window until maintenance can be started.
+  Jobs that cannot start will only be processed afterwards.
+  However, in the event of problems, the queue may have to be emptied.
+  During maintenance, the operating system of the cluster is updated.
+---
 
 # ---
 # status: warning
