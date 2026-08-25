@@ -62,18 +62,18 @@
 #   Please check your workspace expiration dates and extend them if needed.
 # ---
 
----
-url: /
-status: danger
-author: HPC Team
-date: 2026-08-24
-motd: true
-title: Login nodes will be rebooted Tuesday/Wednesday
-text: >
-  login/login1 will be rebooted on Tuesday, 2026-08-25, 18:00 CEST
-  <br />
-  login2 will be rebooted on Wednesday, 2026-08-26, 07:00 CEST
----
+# ---
+# url: /
+# status: danger
+# author: HPC Team
+# date: 2026-08-24
+# motd: true
+# title: Login nodes will be rebooted Tuesday/Wednesday
+# text: >
+#   login/login1 will be rebooted on Tuesday, 2026-08-25, 18:00 CEST
+#   <br />
+#   login2 will be rebooted on Wednesday, 2026-08-26, 07:00 CEST
+# ---
 
 # ---
 # url: /
