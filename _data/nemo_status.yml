@@ -14,21 +14,21 @@
 #   the inconvenience.
 # ---
 
-# ---
-# status: warning
-# author: HPC Team Freiburg
-# date: 2026-08-03
-# title: Security Update 1 - August 2026
-# text: >
-#   The login nodes will be rebooted at:
-#   <br />
-#   login/login1.nemo.uni-freiburg.de : 2026-08-05 07:00 CEST (scheduled)
-#   <br />
-#   login2.nemo.uni-freiburg.de : 2026-08-04 18:00 CEST (scheduled)
-#   <br />
-#   Worker nodes are rebooted automatically after their last job finishes
-#   (rolling reboot started 2026-08-03 14:00 CEST).
-# ---
+---
+status: warning
+author: HPC Team Freiburg
+date: 2026-09-01
+title: Security Update September 2026.1
+text: >
+  The login nodes will be rebooted at:
+  <br />
+  login/login1.nemo.uni-freiburg.de : 2026-09-02 18:00 CEST (scheduled)
+  <br />
+  login2.nemo.uni-freiburg.de : 2026-09-03 07:00 CEST (scheduled)
+  <br />
+  Worker nodes are rebooted automatically after their last job finishes
+  (rolling reboot will start on 2026-09-02).
+---
 
 # ---
 # status: warning
@@ -252,25 +252,25 @@
 #   https://kb.ciq.com/article/rocky-linux/rl-ghostlock-mitigation
 # ---
 
----
-status: warning
-author: HPC Team Freiburg
-date: 2026-08-21
-title: Scheduled Power Maintenance 15.09.2026
-text: >
-  Inspection of the data center's power supply.
-  <br />
-  <br />
-  <strong>Date: 15.09.2026 6:00 - 18:00 CEST</strong>
-  <br />
-  <br />
-  The entire NEMO cluster is shut down.
-  No calculations are possible during maintenance, so submit all jobs in good time.
-  Please note that only jobs whose walltime fits into the time window until maintenance can be started.
-  Jobs that cannot start will only be processed afterwards.
-  However, in the event of problems, the queue may have to be emptied.
-  During maintenance, the operating system of the cluster is updated.
----
+# ---
+# status: warning
+# author: HPC Team Freiburg
+# date: 2026-08-21
+# title: Scheduled Power Maintenance 15.09.2026
+# text: >
+#   Inspection of the data center's power supply.
+#   <br />
+#   <br />
+#   <strong>Date: 15.09.2026 6:00 - 18:00 CEST</strong>
+#   <br />
+#   <br />
+#   The entire NEMO cluster is shut down.
+#   No calculations are possible during maintenance, so submit all jobs in good time.
+#   Please note that only jobs whose walltime fits into the time window until maintenance can be started.
+#   Jobs that cannot start will only be processed afterwards.
+#   However, in the event of problems, the queue may have to be emptied.
+#   During maintenance, the operating system of the cluster is updated.
+# ---
 
 # ---
 # status: warning
