@@ -1,34 +1,30 @@
 ### title is shown as status in motd
 ### status is one of: success, warning, danger
 
-# ---
-# status: success
-# author: HPC Team Freiburg
-# date: 2026-08-03
-# title: 'NEMO: normal operation'
-# text: >
-#   Security Update 1 - August 2026 has been applied successfully.
-#   <br />
-#   Unfortunately, due to a configuration error, Slurm also rebooted the
-#   login nodes outside the scheduled maintenance window. We apologize for
-#   the inconvenience.
-# ---
-
 ---
-status: warning
+status: success
 author: HPC Team Freiburg
-date: 2026-09-01
-title: Security Update September 2026.1
+date: 2026-09-02
+title: 'NEMO: normal operation'
 text: >
-  The login nodes will be rebooted at:
-  <br />
-  login/login1.nemo.uni-freiburg.de : 2026-09-02 18:00 CEST (scheduled)
-  <br />
-  login2.nemo.uni-freiburg.de : 2026-09-03 07:00 CEST (scheduled)
-  <br />
-  Worker nodes are rebooted automatically after their last job finishes
-  (rolling reboot will start on 2026-09-02).
+  Security Update September 2026.1 postponed.
 ---
+
+# ---
+# status: warning
+# author: HPC Team Freiburg
+# date: 2026-09-01
+# title: Security Update September 2026.1
+# text: >
+#   The login nodes will be rebooted at:
+#   <br />
+#   login/login1.nemo.uni-freiburg.de : 2026-09-02 18:00 CEST (scheduled)
+#   <br />
+#   login2.nemo.uni-freiburg.de : 2026-09-03 07:00 CEST (scheduled)
+#   <br />
+#   Worker nodes are rebooted automatically after their last job finishes
+#   (rolling reboot will start on 2026-09-02).
+# ---
 
 # ---
 # status: warning
