@@ -249,7 +249,7 @@
 # ---
 
 ---
-status: warning
+status: danger
 author: HPC Team Freiburg
 date: 2026-09-08
 title: Scheduled Power Maintenance 15.09.2026
