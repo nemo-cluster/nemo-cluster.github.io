@@ -1,14 +1,18 @@
 ### title is shown as status in motd
 ### status is one of: success, warning, danger
 
-# ---
-# status: success
-# author: HPC Team Freiburg
-# date: 2026-09-02
-# title: 'NEMO: normal operation'
-# text: >
-#   Security Update September 2026.1 postponed.
-# ---
+---
+status: success
+author: HPC Team Freiburg
+date: 2026-09-15
+title: 'NEMO: normal operation'
+text: >
+  Power Maintenance ended successfully.
+  <br />
+  Slurm updated to version 26.05.4.
+  <br />
+  Security Update September 2026.2 applied.
+---
 
 # ---
 # status: warning
@@ -248,25 +252,25 @@
 #   https://kb.ciq.com/article/rocky-linux/rl-ghostlock-mitigation
 # ---
 
----
-status: danger
-author: HPC Team Freiburg
-date: 2026-09-08
-title: Scheduled Power Maintenance 15.09.2026
-text: >
-  Inspection of the data center's power supply.
-  <br />
-  <br />
-  <strong>Date: 15.09.2026 6:00 - 18:00 CEST</strong>
-  <br />
-  <br />
-  The entire NEMO cluster is shut down.
-  No calculations are possible during maintenance, so submit all jobs in good time.
-  Please note that only jobs whose walltime fits into the time window until maintenance can be started.
-  Jobs that cannot start will only be processed afterwards.
-  However, in the event of problems, the queue may have to be emptied.
-  During maintenance, the operating system of the cluster is updated.
----
+# ---
+# status: danger
+# author: HPC Team Freiburg
+# date: 2026-09-08
+# title: Scheduled Power Maintenance 15.09.2026
+# text: >
+#   Inspection of the data center's power supply.
+#   <br />
+#   <br />
+#   <strong>Date: 15.09.2026 6:00 - 18:00 CEST</strong>
+#   <br />
+#   <br />
+#   The entire NEMO cluster is shut down.
+#   No calculations are possible during maintenance, so submit all jobs in good time.
+#   Please note that only jobs whose walltime fits into the time window until maintenance can be started.
+#   Jobs that cannot start will only be processed afterwards.
+#   However, in the event of problems, the queue may have to be emptied.
+#   During maintenance, the operating system of the cluster is updated.
+# ---
 
 # ---
 # status: warning
