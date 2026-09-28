@@ -4,8 +4,8 @@ author: bwHPC Symposium Team
 category: event
 tags: [bwHPC, Symposium]
 date: 2026-06-01
-highlight: true
-motd: true
+highlight: false
+motd: false
 summary: >
     The 12th bwHPC Symposium will take place on September 24th, 2026
     and will be hosted by the University of Konstanz.
