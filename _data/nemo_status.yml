@@ -70,7 +70,7 @@ title: Login issues for NEMO2
 text: >
   User identity services in Freiburg are currently disrupted. As a result,
   user accounts cannot be updated and SSH key authentication is currently
-  not working for users from Freiburg. Login via password/OTP is still  
+  not working for users from Freiburg. Login via password/OTP is still
   possible.
   <br />
   Users from other universities may also be affected if their identity
