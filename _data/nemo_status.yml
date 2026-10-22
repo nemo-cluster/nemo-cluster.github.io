@@ -63,20 +63,15 @@
 # ---
 
 ---
-status: warning
+status: success
 author: HPC Team Freiburg
-date: 2026-10-21
-title: Login issues for NEMO2
+date: 2026-10-22
+title: Login issues for NEMO2 resolved
 text: >
-  User identity services in Freiburg are currently disrupted. As a result,
-  user accounts cannot be updated and SSH key authentication is currently
-  not working for users from Freiburg. Login via password/OTP is still
-  possible.
+  The user identity services in Freiburg are working again. SSH key
+  authentication is now possible again for users from Freiburg.
   <br />
-  Users from other universities may also be affected if their identity
-  services are PHP-based.
-  <br />
-  We are working on a resolution.
+  We apologize for the inconvenience.
 ---
 
 # ---
