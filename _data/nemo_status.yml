@@ -10,21 +10,21 @@
 #   Security Update October 2026.1 applied.
 # ---
 
-# ---
-# status: warning
-# author: HPC Team Freiburg
-# date: 2026-10-12
-# title: Security Update October 2026.1
-# text: >
-#   The login nodes will be rebooted at:
-#   <br />
-#   login1.nemo.uni-freiburg.de : 2026-10-13 17:30 CEST (scheduled)
-#   <br />
-#   login2.nemo.uni-freiburg.de : 2026-10-14 07:00 CEST (scheduled)
-#   <br />
-#   Worker nodes are rebooted automatically after their last job finishes
-#   (rolling reboot starts on 2026-10-12 18:00 CEST).
-# ---
+---
+status: warning
+author: HPC Team Freiburg
+date: 2026-10-23
+title: Security Update October 2026.2
+text: >
+  The login nodes will be rebooted at:
+  <br />
+  login1.nemo.uni-freiburg.de : 2026-10-25 07:00 CET (scheduled)
+  <br />
+  login2.nemo.uni-freiburg.de : 2026-10-26 07:00 CET (scheduled)
+  <br />
+  Worker nodes are rebooted automatically after their last job finishes
+  (rolling reboot started on 2026-10-23 15:45 CEST).
+---
 
 # ---
 # status: warning
@@ -62,17 +62,17 @@
 #   We have applied the security update May 2026.
 # ---
 
----
-status: success
-author: HPC Team Freiburg
-date: 2026-10-22
-title: Login issues for NEMO2 resolved
-text: >
-  The user identity services in Freiburg are working again. SSH key
-  authentication is now possible again for users from Freiburg.
-  <br />
-  We apologize for the inconvenience.
----
+# ---
+# status: success
+# author: HPC Team Freiburg
+# date: 2026-10-22
+# title: Login issues for NEMO2 resolved
+# text: >
+#   The user identity services in Freiburg are working again. SSH key
+#   authentication is now possible again for users from Freiburg.
+#   <br />
+#   We apologize for the inconvenience.
+# ---
 
 # ---
 # status: success
