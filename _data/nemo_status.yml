@@ -10,21 +10,21 @@
 #   Security Update October 2026.1 applied.
 # ---
 
----
-status: warning
-author: HPC Team Freiburg
-date: 2026-10-23
-title: Security Update October 2026.2
-text: >
-  The login nodes will be rebooted at:
-  <br />
-  login1.nemo.uni-freiburg.de : 2026-10-25 07:00 CET (scheduled)
-  <br />
-  login2.nemo.uni-freiburg.de : 2026-10-26 07:00 CET (scheduled)
-  <br />
-  Worker nodes are rebooted automatically after their last job finishes
-  (rolling reboot started on 2026-10-23 15:45 CEST).
----
+# ---
+# status: warning
+# author: HPC Team Freiburg
+# date: 2026-10-23
+# title: Security Update October 2026.2
+# text: >
+#   The login nodes will be rebooted at:
+#   <br />
+#   login1.nemo.uni-freiburg.de : 2026-10-25 07:00 CET (scheduled)
+#   <br />
+#   login2.nemo.uni-freiburg.de : 2026-10-26 07:00 CET (scheduled)
+#   <br />
+#   Worker nodes are rebooted automatically after their last job finishes
+#   (rolling reboot started on 2026-10-23 15:45 CEST).
+# ---
 
 # ---
 # status: warning
@@ -49,18 +49,21 @@ text: >
 #   on our end and will not necessarily be fixed immediately.
 # ---
 
-# ---
-# status: success
-# author: HPC Team Freiburg
-# date: 2026-05-22
-# title: 'NEMO: normal operation'
-# text: >
-#   There has been a power outage on 21.05.2026 at 17:27 CEST.
-#   UPS failure caused an abrupt shutdown of our core infrastructure and parallel storage.
-#   All nodes were rebooted and are operational again.
-#   <br />
-#   We have applied the security update May 2026.
-# ---
+---
+status: warning
+author: HPC Team Freiburg
+date: 2026-10-25
+title: 'NEMO: normal operation'
+text: >
+  A short power outage occurred on 25.10.2026 at around 06:00 CET. A storm
+  blew a piece of corrugated sheet metal into a transformer station, causing
+  a brief loss of power that shut down the compute nodes. All other
+  components were unaffected.
+  All nodes were rebooted and have been operational again since 12:15 CET.
+  <br />
+  login2 (login2.nemo.uni-freiburg.de) will still be rebooted as scheduled
+  on 2026-10-26 at 07:00 CET.
+---
 
 # ---
 # status: success
