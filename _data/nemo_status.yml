@@ -50,9 +50,9 @@
 # ---
 
 ---
-status: warning
+status: success
 author: HPC Team Freiburg
-date: 2026-10-25
+date: 2026-10-26
 title: 'NEMO: power outage resolved, normal operation restored'
 text: >
   A short power outage occurred on 25.10.2026 at around 06:00 CET. A storm
@@ -64,10 +64,8 @@ text: >
   check your jobs (e.g. with <code>sacct</code>) and resubmit them if
   necessary. Jobs that were still pending in the queue are not affected.
   <br />
-  All nodes were rebooted and have been operational again since 12:15 CET.
-  <br />
-  login2 (login2.nemo.uni-freiburg.de) will still be rebooted as scheduled
-  on 2026-10-26 at 07:00 CET.
+  The compute nodes were rebooted and have been operational again since
+  25.10.2026 12:15 CET.
 ---
 
 # ---
