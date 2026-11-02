@@ -10,21 +10,21 @@
 #   Security Update October 2026.1 applied.
 # ---
 
-# ---
-# status: warning
-# author: HPC Team Freiburg
-# date: 2026-10-23
-# title: Security Update October 2026.2
-# text: >
-#   The login nodes will be rebooted at:
-#   <br />
-#   login1.nemo.uni-freiburg.de : 2026-10-25 07:00 CET (scheduled)
-#   <br />
-#   login2.nemo.uni-freiburg.de : 2026-10-26 07:00 CET (scheduled)
-#   <br />
-#   Worker nodes are rebooted automatically after their last job finishes
-#   (rolling reboot started on 2026-10-23 15:45 CEST).
-# ---
+---
+status: warning
+author: HPC Team Freiburg
+date: 2026-11-02
+title: Security Update November 2026.1
+text: >
+  The login nodes will be rebooted at:
+  <br />
+  login1.nemo.uni-freiburg.de : 2026-11-03 18:00 CET (scheduled)
+  <br />
+  login2.nemo.uni-freiburg.de : 2026-11-04 07:00 CET (scheduled)
+  <br />
+  Worker nodes are rebooted automatically after their last job finishes
+  (rolling reboot started on 2026-11-02 12:00 CET).
+---
 
 # ---
 # status: warning
@@ -49,24 +49,24 @@
 #   on our end and will not necessarily be fixed immediately.
 # ---
 
----
-status: success
-author: HPC Team Freiburg
-date: 2026-10-26
-title: 'NEMO: power outage resolved, normal operation restored'
-text: >
-  A short power outage occurred on 25.10.2026 at around 06:00 CET. A storm
-  blew a piece of corrugated sheet metal into a transformer station, causing
-  a brief loss of power that shut down all compute nodes. All other
-  components were unaffected.
-  <br />
-  As a result, all jobs that were running at that time were aborted. Please
-  check your jobs (e.g. with <code>sacct</code>) and resubmit them if
-  necessary. Jobs that were still pending in the queue are not affected.
-  <br />
-  The compute nodes were rebooted and have been operational again since
-  25.10.2026 12:15 CET.
----
+# ---
+# status: success
+# author: HPC Team Freiburg
+# date: 2026-10-26
+# title: 'NEMO: power outage resolved, normal operation restored'
+# text: >
+#   A short power outage occurred on 25.10.2026 at around 06:00 CET. A storm
+#   blew a piece of corrugated sheet metal into a transformer station, causing
+#   a brief loss of power that shut down all compute nodes. All other
+#   components were unaffected.
+#   <br />
+#   As a result, all jobs that were running at that time were aborted. Please
+#   check your jobs (e.g. with <code>sacct</code>) and resubmit them if
+#   necessary. Jobs that were still pending in the queue are not affected.
+#   <br />
+#   The compute nodes were rebooted and have been operational again since
+#   25.10.2026 12:15 CET.
+# ---
 
 # ---
 # status: success
